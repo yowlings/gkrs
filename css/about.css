@@ -1,0 +1,189 @@
+.banner{
+    width: 100%;
+    /*height: 220px;*/
+    background: url("../img/schemeBanner.jpg") no-repeat center center;
+    background-size:cover;
+}
+ol ,ul{
+    margin-bottom: 0px;
+
+}
+.nav-key{
+    height: 70px;
+    line-height: 70px;
+    background: #010101;
+    opacity: .8;
+    /*background: pink;*/
+}
+
+.nav-key .lf{
+    float: left;
+    /*height: 70px;*/
+    /*line-height: 70px;*/
+    overflow: hidden;
+
+}
+.nav-key .lf li{
+    margin-top:10px;
+}
+.nav-key .lf li a{
+    /*display: inline-block;*/
+    /*width: 150px;*/
+    /*height: 40px;*/
+    /*background:url("../img/logo.png") no-repeat center center;*/
+}
+
+.nav-key .rt{
+    float: right;
+}
+.nav-key .rt li{
+    float: left;
+    margin:0 40px;
+}
+.nav-key .rt li:last-child{
+    margin:0px;
+}
+.nav-key .rt li a{
+    font-size: 20px;
+    color: #fff;
+}
+.nav-key .rt li a:hover{
+    color:#5FD1E3;
+}
+.nav-scheme-key{
+    clear: both;
+    /*margin:50px;*/
+    padding-top: 65px;
+    padding-bottom: 55px;
+
+}
+.nav-scheme-key p{
+    color: #fff;
+}
+.nav-scheme-key p:first-child{
+    font-size: 24px;
+}
+.nav-scheme-key p:last-child{
+    font-size: 14px;
+}
+/*按钮部分*/
+.but-down {
+    display: none;
+    /*float:right;*/
+}
+
+.but-down-list {
+    clear: both;
+    display: none;
+}
+
+
+/*About内容部分*/
+
+.about-title {
+    width: 230px;
+    margin: 40px auto 25px;
+}
+
+.about-title > h3 {
+    margin: auto;
+    /*width: 100px;*/
+    text-align: center;
+    font-size: 24px;
+    color: #03859F;
+}
+.about-title >h3 span{
+    margin: auto;
+}
+
+.about-title .about-icon {
+    width: 220px;
+    height: 20px;
+    background: url("../img/line.png") no-repeat center center;
+}
+.about-content{
+    color:#666;
+    line-height: 30px;
+    margin-bottom:70px;
+
+}
+.about-content ul{
+    display: flex;
+}
+.about-content ul li{
+    flex: 1;
+    /*float: left;*/
+    /*text-align: center;*/
+}
+.core-idea .about-content dl{
+    text-align: center;
+}
+.about-content dt{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background:url("../img/icon.jpg") no-repeat center center;
+}
+
+.team{}
+.team .team-content .team-group{
+    overflow: hidden;
+}
+
+.team-content .team-group-top{
+    margin-top:30px;
+}
+.team .team-group-lf{
+    float: left;
+    width: 12%;
+    /*text-align: center;*/
+}
+.team .team-group-lf img{
+}
+.team .team-group-lf p{
+    margin-left:20%
+}
+.team .team-group-rt{
+    width: 88%;
+    float: left;
+}
+.add-ress .about-content p{
+    text-align: center;
+}
+.about-content p i{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background:url("../img/address.png") no-repeat center 1px;
+}
+
+.team .team-group-lf dt{
+    /*display: inline-block;*/
+
+}
+
+
+.contact-information{}
+.contact-information-content{
+    text-align: center;
+}
+.contact-information-content ul{
+    display: flex;
+}
+.contact-information-content ul li{
+    flex: 1;
+}
+.contact-information-content ul li i{
+    display: inline-block;
+    width: 16px;
+    height: 14px;
+    background:url("../img/media.png") no-repeat center center;
+}
+.contact-information-content ul li:nth-child(2) i{
+    background:url("../img/Business.png") no-repeat center center;
+}
+.contact-information-content ul li:nth-child(3) i{
+    background:url("../img/server.png") no-repeat center center;
+}.contact-information-content ul li:nth-child(4) i{
+    background:url("../img/tel.png") no-repeat center center;
+}

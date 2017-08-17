@@ -1,0 +1,761 @@
+/*============ banner 开始 ============*/
+
+.banner {
+    /*width: 95%;*/
+    /*height: 65px;*/
+    /*line-height: 48px;*/
+    /*margin: 0 2.5%;*/
+    background: #181E2A;
+    opacity: .8;
+    position: absolute;
+    clear: both;
+}
+
+/*无需*/
+.banner-container {
+    width: 100%;
+    text-align: center;
+}
+
+
+.but-down {
+    display: none;
+    /*float:right;*/
+}
+
+.but-down-list {
+    clear: both;
+    display: none;
+
+}
+
+.banner ul li a {
+    text-decoration: none;
+}
+
+.banner ul li a:hover {
+    color: #868B92;
+}
+
+.banner .rt li a {
+    color: #fff;
+}
+
+.banner ul {
+    position: relative;
+    /*top: 12px;*/
+    top: 16px;
+
+}
+
+.banner .lf, .banner .lf li {
+    float: left;
+}
+
+.banner .lf li:first-child {
+    line-height: 88px;
+}
+
+.banner .lf a {
+    font-size: 24px;
+    color: #39E6D4;
+}
+
+.banner .rt {
+    float: right;
+}
+
+.banner .rt li {
+    float: left;
+    /*margin: 0 15px;*/
+    margin: 0 40px;
+}
+
+.banner .rt a {
+    font-size: 20px;
+    color: #fff;
+}
+
+/*======================*/
+
+.banner-show {
+    width: 100%;
+    /*height: 400px;*/
+    clear: both;
+    overflow: hidden;
+    /*position: absolute;*/
+    /*top: -10%;*/
+    /*top:0px;*/
+}
+
+.banner-list {
+    width: 500%;
+    /*height: 400px;*/
+    /*margin: -10px 0px ;*/
+}
+
+.banner-show ul li {
+    width: 20%;
+    /*height: 400px;*/
+    float: left;
+}
+
+.banner-show ul li img {
+    width: 100%;
+    display: block;
+    background-size: cover;
+}
+
+/*=========================*/
+
+.banner{
+    /*width: 95%;*/
+    /*position: absolute;*/
+    /*padding-top: 10px;*/
+}
+
+/*============ banner 结束 ============*/
+
+/*============ 核心技术 开始 ============*/
+
+.core-technology {
+    background: #FCFCFC;
+    /*border:1px solid red;*/
+    margin-top: 50px;
+}
+
+.core-technology-content {
+    margin: 50px 0px;
+}
+
+.core-technology-content .technology-content-circle {
+    /*width: 685px;*/
+    width: 80%;
+    /*height: 411px;*/
+    background: url("../img/ellipse.png") no-repeat center center;
+    background: #F0F0F0;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.technology-content-circle .circle-top {
+    /*width: 310px;*/
+    /*height: 310px;*/
+    /*width: 100%;*/
+    height: 310px;
+    background: url("../img/robotee.png") no-repeat center center;
+    background-size: 30%;
+    margin: auto;
+}
+
+.technology-content-circle .circle-common {
+    /*width: 128px;*/
+    width: 40%;
+    height: 128px;
+    background: url("../img/circle.png") no-repeat center center;
+    /*background-size:40%;*/
+    /*float: right;
+    margin-top: -240px;
+    margin-right: -30px;*/
+}
+
+.circle-common i {
+    display: inline-block;
+    width: 27px;
+    height: 20px;
+
+    /*background:url("../img/edu.png") no-repeat center center;
+    margin-top:20px;
+    margin-left:50px;*/
+}
+
+.circle-common div {
+    margin-top: 10px;
+}
+
+.circle-common div p {
+    font-size: 16px;
+    color: #64D4EF;
+    line-height: 20px;
+    text-align: center;
+}
+
+.technology-content-circle .circle-rt {
+    float: right;
+    margin-top: -240px;
+    /*margin-right: -80px;*/
+}
+
+.circle-rt i {
+    /*background:url("../img/edu.png") no-repeat center right;*/
+    /*margin-top:20px;*/
+    /*margin-left:50px;*/
+}
+
+.technology-content-circle .circle-bto {
+    margin-top: 50px;
+    margin-left: 260px;
+}
+
+.circle-bto i {
+    background: url("../img/edu.png") no-repeat center center;
+}
+
+/*============ 核心技术 结束 ============*/
+
+/*============ 产品概览 开始 ============*/
+.product-summary {
+    /*margin: 58px 0px 24px;*/
+}
+
+.product-title {
+    width: 230px;
+    margin: auto;
+}
+
+.product-title > h3 {
+    margin: auto;
+    /*width: 100px;*/
+    text-align: center;
+    font-size: 24px;
+    color: #298FA6;
+}
+.product-title >h3 span{
+    margin: auto;
+}
+
+.product-title .product-icon {
+    width: 220px;
+    height: 20px;
+    background: url("../img/line.png") no-repeat center center;
+}
+
+.product-robots {
+    overflow: hidden;
+}
+
+.product-robots ul {
+    overflow: hidden;
+    display: flex;
+}
+
+.product-robots ul li {
+    flex: 1;
+    width: 30%;
+    float: left;
+}
+
+.product-robots ul li:nth-child(2) {
+    margin: 0 10px;
+}
+
+.product-robots ul li > div {
+    /* width: 350px;
+     height: 300px;*/
+    background: #EEF5F8;
+    border-radius: 10px;
+}
+
+.product-robots ul li > div > p {
+    margin: auto;
+}
+
+.product-robots ul li > p {
+    text-align: center;
+    margin-top: 15px;
+    color: #0D91BC;
+}
+
+.product-robots ul li > p span {
+    font-size: 16px;
+}
+
+/*.product-robots ul li:nth-child(1) div p{
+    background: url("../img/tony.png") no-repeat center center;
+    width: 350px;
+    height: 300px;
+    background-size:cover;
+}
+.product-robots ul li:nth-child(2) div p{
+    width: 350px;
+    height: 300px;
+    background: url("../img/andy.png") no-repeat center center;
+    background-size:cover;
+}
+.product-robots ul li:nth-child(3) div p{
+    width: 350px;
+    height: 300px;
+    background: url("../img/marry.png") no-repeat center center;
+    background-size:cover;
+}*/
+
+/*============ 产品概览 结束 ============*/
+
+/*============ 解决方案 开始 ============*/
+.scheme {
+    /*height: 350px;*/
+    background: url("../img/blur-pen.png") no-repeat center center;
+    /*background-size:cover ;*/
+    /*background-size:cover;*/
+    /*opacity:.8;*/
+    clear: both;
+    box-sizing: border-box;
+}
+
+.mask {
+    /*height: 350px;
+    background:#1F444B;
+    opacity:.8;*/
+}
+
+.scheme-con {
+    text-align: center;
+}
+
+.scheme-content {
+    text-align: center;
+    display: inline-block;
+    /*margin: 100px 2%;*/
+    margin: 8% 2%;
+}
+
+.scheme-content h4 {
+    font-size: 24px;
+    line-height: 48px;
+    color: #fff;
+}
+
+.scheme-content p {
+    margin: auto;
+    font-size: 16px;
+    line-height: 32px;
+    color: #fff;
+}
+
+/*============ 解决方案 结束 ============*/
+
+/*============ 合作企业 开始 ============*/
+.cooperate {
+    margin: 50px 0 60px;
+    box-sizing: border-box;
+}
+
+.cooperate-company {
+    margin-top: 20px;
+
+}
+
+.company-first ul, .company-two ul {
+    display: flex;
+}
+
+.company-first li, .company-two li {
+    flex: 1;
+    width: 24%;
+    float: left;
+    background: #EDF1F2;
+    margin-left: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.company-first li img, .company-two li img {
+    width: 100%;
+}
+
+/*.company-two li:last-child{
+    background:#fff;
+}
+
+.company-first li i , .company-two li i{
+    display: inline-block;
+    width: 265px;
+    height: 85px;
+    margin-left: 10px;
+}
+
+.company-first li:nth-child(1) i{
+    background:url("../img/qinghua.png") no-repeat center center;
+}
+.company-first li:nth-child(2) i{
+    background:url("../img/heb.png") no-repeat center center;
+}
+.company-first li:nth-child(3) i{
+    background:url("../img/bh.png") no-repeat center center;
+}
+.company-first li:nth-child(4) i{
+    background:url("../img/iscas.png") no-repeat center center;
+}
+
+
+.company-two li:nth-child(1) i{
+    background:url("../img/zky.png") no-repeat center center;
+}
+.company-two li:nth-child(2) i{
+    background:url("../img/tencent.png") no-repeat center center;
+}
+.company-two li:nth-child(3) i{
+    background:url("../img/childedu.png") no-repeat center center;
+}
+.company-two li:nth-child(4) i{}*/
+
+/*============ 合作企业 结束 ============*/
+
+/*============ 关于 开始 ============*/
+
+.about {
+    /*height: 370px;*/
+    background: url("../img/slug.png") no-repeat center bottom;
+    background-size: cover;
+    clear: both;
+}
+
+.about-content {
+    padding: 68px 4px;
+    box-sizing: border-box;
+}
+
+/*.about-mask{
+    height: 330px;
+    background:#131D1F;
+    opacity:.7;
+}*/
+.about h5 {
+    color: #9DDEF6;
+    font-size: 22px;
+    margin-left: 5px;
+}
+
+.about p {
+    color: #8DB2BC;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0px 2%;
+}
+
+/*============ 关于 结束 ============*/
+
+/*============ 页脚 开始============*/
+
+.footer {
+    /*height: 285px;*/
+    background: #1C1E1F;
+    /*padding: 55px 0px 65px 0px;*/
+    /*box-sizing: border-box;*/
+    overflow: hidden;
+}
+
+.footer li a {
+    text-decoration: none;
+}
+
+.footer-cell a {
+    color: #7F8387;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-cell > ul {
+    display: flex;
+}
+
+.footer-cell > ul > li {
+    /*width: 50%;*/
+    /*float: left;*/
+    flex: 1;
+    /*width: 20%;*/
+
+}
+
+/*.footer .footer-logo i{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    background: url("../img/logo.png");
+}*/
+.footer .footer-logo p a {
+    font-size: 24px;
+}
+
+.footer-cell .summary a {
+    font-size: 18px;
+}
+
+.footer-cell ul > li ul li {
+    line-height: 36px;
+}
+
+.footer-bottom {
+    /*height: 45px;*/
+    background-color: #1C1E1F;
+}
+
+.cut-line {
+    width: 100%;
+    height: 1px;
+    background-color: #2C2E2E;
+}
+
+.footer-bottom p {
+    /*width: 600px;*/
+    margin: auto;
+    text-align: center;
+    line-height: 45px;
+}
+
+.footer-bottom p a {
+    color: #7F8387;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/*============ 页脚 结束============*/
+
+/*适配*/
+@media screen and (max-width: 1200px) {
+    .about-content p {
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .banner{
+        width: 100%;
+        /*padding: 2.5%;*/
+    }
+    .vessel {
+        width: 100%;
+    }
+
+    .core-technology {
+        padding: 0 2%;
+    }
+
+    .product-summary {
+        padding: 0 2%;
+    }
+
+    .cooperate {
+        padding: 0 2%;
+    }
+
+    .about-content {
+        /*padding:10px 20px 0px;*/
+    }
+
+    .footer-cell {
+        padding: 0 2%;
+    }
+
+    .footer-bottom {
+        padding: 0 2%;
+    }
+
+    .banner ul {
+        /*margin-top: 2px;*/
+    }
+
+    .banner .lf img {
+        /*background-size:30%;*/
+        width: 80%;
+    }
+
+    .banner .lf {
+        display: none;
+    }
+
+    .banner .rt {
+        width: 100%;
+        height: 30px;
+    }
+
+    .banner .rt li {
+        margin: 0;
+        width: 20%;
+        text-align: center;
+    }
+
+    /*.banner .rt li:nth-child(2){
+      display: none;
+    }*/
+    .banner .rt li a {
+        font-size: 18px;
+        /*line-height: 36px;  */
+    }
+
+    .banner-show {
+        width: 100%;
+    }
+
+    /*==========核心技术==========*/
+    /*.core-technology .core-technology-content {*/
+    /*!*width: 200%;*!*/
+    /*body {*/
+    /*!*padding:1px;*!*/
+    /*}*/
+    /*}*/
+    .product-title > h3 {
+        font-size: 20px;
+    }
+
+    .product-robots {
+        margin: auto;
+    }
+
+    .product-robots li div img {
+        width: 100%;
+    }
+
+    .product-robots ul li p span {
+        font-size: 14px;
+    }
+
+    /*=========解决方案=========*/
+    .scheme.scheme-content h4 {
+        font-size: 18px;
+    }
+
+    .scheme-content p {
+        font-size: 14px;
+    }
+
+    .about-content p {
+        font-size: 14px;
+    }
+
+    /*=========About=========*/
+    /*.about .about-content{
+      padding:34px 2px;
+    }*/
+    /*==========页脚==========*/
+    .footer {
+        /*padding: 25px 0px 30px 0px;*/
+    }
+
+    .footer-bottom p {
+        width: 100%;
+    }
+
+    .footer-cell {
+        /*text-align: center;*/
+    }
+
+    .footer .footer-cell > ul {
+        display: inline-block;
+        margin: auto;
+
+    }
+
+    .footer .footer-cell > ul > li {
+        width: 50%;
+        float: left;
+        margin-top: 30px;
+    }
+
+    .footer-cell ul li ul li {
+        line-height: 25px;
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .cooperate {
+        margin: 0;
+    }
+
+    .nav-key{
+        width: 95%;
+        line-height: 35px;
+        margin:0 2.5%;
+        box-sizing: border-box;
+    }
+    .nav-key .lf{
+        display: inline-block;
+        /*height:0px;*/
+    }
+    .nav-key .lf img{
+        width: 70%;
+    }
+    .nav-key .rt{
+        display: none;
+    }
+
+    .but-down {
+        display: inline-block;
+        margin-top: 10px;
+        float: right;
+    }
+    .but-down-list{
+        background:#181E2A;
+        opacity: .8;
+        text-align: center;
+    }
+    .but-down-list ul li:hover{
+        background:#4F8397;
+    }
+
+    .but-down-list ul li a {
+        font-size: 16px;
+        color: #337ab7;
+    }
+
+
+
+    .banner .lf img {
+        width: 70%;
+        margin-top: 1%;
+    }
+
+    .banner-show ul li img {
+        /*height: 180px;*/
+    }
+
+    .banner .lf {
+        display: block;
+    }
+
+    .banner .rt {
+        display: none;
+    }
+
+    .scheme-content h4 {
+        font-size: 18px;
+    }
+
+    .scheme-content p, .about-content p {
+        font-size: 12px;
+    }
+
+    .about-content h5 {
+        font-size: 18px;
+    }
+
+    .footer-cell .summary a {
+        font-size: 16px;
+    }
+
+    .footer-cell ul li ul li a {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+    body {
+        /*background-color: yellow;*/
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .footer-logo > a img {
+        background-size: 20%;
+    }
+
+    .footer .footer-cell > ul > li {
+        width: 50%;
+        /*float:none;*/
+
+    }
+}

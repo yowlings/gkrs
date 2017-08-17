@@ -1,0 +1,290 @@
+.banner{
+    width: 100%;
+    /*height: 220px;*/
+    background: url("../img/schemeBanner.jpg") no-repeat center center;
+    background-size:cover;
+}
+ol ,ul{
+    margin-bottom: 0px;
+
+}
+.nav-key{
+    height: 70px;
+    line-height: 70px;
+    background: #010101;
+    opacity: .8;
+    /*background: pink;*/
+}
+
+.nav-key .lf{
+    float: left;
+    /*height: 70px;*/
+    /*line-height: 70px;*/
+    overflow: hidden;
+
+}
+.nav-key .lf li{
+    margin-top:10px;
+}
+.nav-key .lf li a{
+    /*display: inline-block;*/
+    /*width: 150px;*/
+    /*height: 40px;*/
+    /*background:url("../img/logo.png") no-repeat center center;*/
+}
+
+.nav-key .rt{
+    float: right;
+}
+.nav-key .rt li{
+    float: left;
+    margin:0 40px;
+}
+.nav-key .rt li:last-child{
+    margin:0px;
+}
+.nav-key .rt li a{
+    font-size: 20px;
+    color: #fff;
+}
+.nav-key .rt li a:hover{
+    color:#5FD1E3;
+}
+.nav-scheme-key{
+    clear: both;
+    /*margin:50px;*/
+    padding-top: 65px;
+    padding-bottom: 55px;
+
+}
+.nav-scheme-key p{
+    color: #fff;
+}
+.nav-scheme-key p:first-child{
+    font-size: 24px;
+}
+.nav-scheme-key p:last-child{
+    font-size: 14px;
+}
+/*按钮部分*/
+.but-down {
+    display: none;
+    /*float:right;*/
+}
+
+.but-down-list {
+    clear: both;
+    display: none;
+}
+
+/*睿思学院内容*/
+
+.college-content{
+    overflow: hidden;
+    margin-bottom:75px;
+}
+.college-banner{
+    margin:auto;
+}
+.college-banner img{
+    width: 100%;
+    /*position: absolute;*/
+    margin-top: -50px;
+}
+
+.college-slide-groups{
+    clear: both;
+}
+
+.college-block ul{
+    display: flex;
+}
+.college-block ul li{
+    /*float: left;*/
+    width: 50%;
+
+}
+/*.college-slide{*/
+    /*float: left;*/
+    /*width: 45%;*/
+    /*!*height:450px;*!*/
+    /*margin-top:45px;*/
+    /*position: relative;*/
+    /*margin-left:4%;*/
+/*}*/
+/*.college-slide p{*/
+    /*text-align: center;*/
+    /*margin-top:20px;*/
+    /*font-weight: 700;*/
+    /*font-size: 20px;*/
+/*}*/
+
+/*.college-block{*/
+    /*height:450px;*/
+    /*background:url("../img/teaching.jpg") no-repeat center center;*/
+    /*position: relative;*/
+/*}*/
+/*.college-block a{*/
+    /*display: inline-block;*/
+    /*padding: 25px 45px;*/
+    /*color: #fff;*/
+    /*line-height: 26px;*/
+    /*position: absolute;*/
+    /*bottom: 0px;*/
+/*}*/
+
+/*.college-slide .mask{*/
+    /*width: 100%;*/
+    /*height: 160px;*/
+    /*opacity: .4;*/
+    /*background: #0A0B13;*/
+    /*position: absolute;*/
+    /*bottom: 46px;*/
+    /*!*display: none;*!*/
+/*}*/
+/*.college-slide:hover .mask{*/
+    /*!*transition: all .2s linear;*!*/
+/*}*/
+
+
+/*===============================*/
+
+
+.product-robots {
+    overflow: hidden;
+}
+
+.product-robots ul {
+    overflow: hidden;
+    display: flex;
+}
+
+.product-robots ul li {
+    flex: 1;
+    width: 30%;
+    float: left;
+}
+
+.product-robots ul li:nth-child(2) {
+    margin: 0 10px;
+}
+
+.product-robots ul li > div {
+    /* width: 350px;
+     height: 300px;*/
+    background: #EEF5F8;
+    border-radius: 10px;
+}
+
+.product-robots ul li > div > p {
+    margin: auto;
+}
+
+.product-robots ul li > p {
+    text-align: center;
+    margin-top: 15px;
+    color: #0D91BC;
+}
+
+.product-robots ul li > p span {
+    font-size: 16px;
+}
+
+
+/*===============================*/
+
+/*适配部分*/
+@media screen and (max-width: 1200px){
+    .vessel{
+        width: 100%;
+    }
+    .nav-key{
+        width: 100%;
+        /*padding:0% 2%;*/
+    }
+    .nav-key .lf{
+        display: none;
+    }
+    .nav-key .rt{
+        width: 100%;
+        /*padding:0% 2%;*/
+        display: flex;
+        margin:auto;
+    }
+    .nav-key .rt li{
+        flex: 1;
+        margin:0px;
+        text-align: center;
+    }
+    .nav-key .rt li a{
+        font-size: 18px;
+    }
+    .nav-scheme-key{
+        width: 95%;
+        /*margin-left:100px;*/
+        margin: 0 2.5%;
+    }
+    .nav-scheme-key p:first-child{
+        font-size: 18px;
+    }
+    .nav-scheme-key p:last-child{
+        font-size: 12px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px){
+    .nav-key{
+        width: 95%;
+        line-height: 35px;
+        margin:0 2.5%;
+        box-sizing: border-box;
+    }
+    .nav-key .lf{
+        display: inline-block;
+        /*height:0px;*/
+    }
+    .nav-key .lf img{
+        width: 70%;
+    }
+    .nav-key .rt{
+        display: none;
+    }
+
+
+    .but-down {
+        display: inline-block;
+        margin-top: 10px;
+        float: right;
+    }
+    .but-down-list{
+        background:#181E2A;
+        opacity: .8;
+        text-align: center;
+    }
+    .but-down-list ul li:hover{
+        background:#4F8397;
+    }
+
+    .but-down-list ul li a {
+        font-size: 16px;
+        color: #337ab7;
+    }
+
+    .product-content{
+        line-height: 25px;
+    }
+    .product-content p{
+        font-size: 14px;
+
+    }
+}
+@media screen and (max-width: 414px){
+    .product-content p{
+        font-size: 12px;
+
+    }
+}
+@media screen and (max-width: 375px){}

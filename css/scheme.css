@@ -1,0 +1,247 @@
+/*.banner{*/
+    /*width: 100%;*/
+    /*!*height: 220px;*!*/
+    /*background: url("../img/schemeBanner.jpg") no-repeat center center;*/
+    /*background-size:cover;*/
+/*}*/
+/*ol ,ul{*/
+    /*margin-bottom: 0px;*/
+
+/*}*/
+/*.nav-key{*/
+    /*height: 70px;*/
+    /*line-height: 70px;*/
+    /*background: #010101;*/
+    /*opacity: .8;*/
+    /*!*background: pink;*!*/
+/*}*/
+
+/*.nav-key .lf{*/
+    /*float: left;*/
+    /*!*height: 70px;*!*/
+    /*!*line-height: 70px;*!*/
+    /*overflow: hidden;*/
+
+/*}*/
+/*.nav-key .lf li{*/
+    /*margin-top:10px;*/
+/*}*/
+/*.nav-key .lf li a{*/
+    /*!*display: inline-block;*!*/
+    /*!*width: 150px;*!*/
+    /*!*height: 40px;*!*/
+    /*!*background:url("../img/logo.png") no-repeat center center;*!*/
+/*}*/
+
+/*.nav-key .rt{*/
+    /*float: right;*/
+/*}*/
+/*.nav-key .rt li{*/
+    /*float: left;*/
+    /*margin:0 40px;*/
+/*}*/
+/*.nav-key .rt li:last-child{*/
+    /*margin:0px;*/
+/*}*/
+/*.nav-key .rt li a{*/
+    /*font-size: 20px;*/
+    /*color: #fff;*/
+/*}*/
+/*.nav-key .rt li a:hover{*/
+    /*color:#5FD1E3;*/
+/*}*/
+/*.nav-scheme-key{*/
+    /*clear: both;*/
+    /*margin:50px;*/
+
+/*}*/
+/*.nav-scheme-key p{*/
+    /*color: #fff;*/
+/*}*/
+/*.nav-scheme-key p:first-child{*/
+    /*font-size: 24px;*/
+/*}*/
+/*.nav-scheme-key p:last-child{*/
+    /*font-size: 14px;*/
+/*}*/
+/*按钮部分*/
+
+.but-down {
+    display: none;
+    /*float:right;*/
+}
+
+.but-down-list {
+    clear: both;
+    display: none;
+}
+
+
+/*解决方案内容 开始*/
+.scheme-content{
+    padding-bottom: 60px;
+}
+.product-title {
+    width: 230px;
+    margin: 40px auto;
+}
+
+.product-title > h3 {
+    margin: auto;
+    /*width: 100px;*/
+    text-align: center;
+    font-size: 24px;
+    color: #03859F;
+}
+.product-title >h3 span{
+    margin: auto;
+}
+
+.product-title .product-icon {
+    width: 220px;
+    height: 20px;
+    background: url("../img/line.png") no-repeat center center;
+}
+
+.product-content{
+    color:#666;
+    line-height: 30px;
+}
+.product-show{
+    margin-top:28px;
+}
+.product-show ul{
+    display: flex;
+}
+.product-show ul li{
+    float: left;
+    flex: 1;
+    /*width: 40%;*/
+    /*margin-right:50px;*/
+}
+.product-show-two ul li{ width: 40%;}
+.product-show-three ul li{width: 30%;}
+.product-show-four ul li{width: 20%;}
+
+.product-show ul li{
+    margin-right:2%;
+}
+.product-show ul li:last-child{
+    margin-right:0%;
+}
+.product-show ul li img{
+    background-size:80%;
+}
+
+/*解决方案内容 结束*/
+
+/*适配部分*/
+@media screen and (max-width: 1200px){
+    .vessel{
+        width: 100%;
+    }
+    .nav-key{
+        width: 100%;
+        /*padding:0% 2%;*/
+    }
+    .nav-key .lf{
+        display: none;
+    }
+    .nav-key .rt{
+        width: 100%;
+        /*padding:0% 2%;*/
+        display: flex;
+        margin:auto;
+    }
+    .nav-key .rt li{
+        flex: 1;
+        margin:0px;
+        text-align: center;
+    }
+    .nav-key .rt li a{
+        font-size: 18px;
+    }
+    .nav-scheme-key{
+        width: 95%;
+        /*margin-left:100px;*/
+        margin: 0 2.5%;
+    }
+    .nav-scheme-key p:first-child{
+        font-size: 18px;
+    }
+    .nav-scheme-key p:last-child{
+        font-size: 12px;
+    }
+
+    .product-title>h3{
+        font-size: 20px;
+    }
+
+    .product-content, .product-show{
+        padding: 0% 2.5%;
+    }
+    .product-show ul{
+        display: flex;
+    }
+    .product-show ul li{
+        flex: 1;
+    }
+    .product-show ul li img{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .nav-key{
+        width: 95%;
+        line-height: 35px;
+        margin:0 2.5%;
+        box-sizing: border-box;
+    }
+    .nav-key .lf{
+        display: inline-block;
+        /*height:0px;*/
+    }
+    .nav-key .lf img{
+        width: 70%;
+    }
+    .nav-key .rt{
+        display: none;
+    }
+
+
+    .but-down {
+        display: inline-block;
+        margin-top: 10px;
+        float: right;
+    }
+    .but-down-list{
+        background:#181E2A;
+        opacity: .8;
+        text-align: center;
+    }
+    .but-down-list ul li:hover{
+        background:#4F8397;
+    }
+
+    .but-down-list ul li a {
+        font-size: 16px;
+        color: #337ab7;
+    }
+
+    .product-content{
+        line-height: 25px;
+    }
+    .product-content p{
+        font-size: 14px;
+
+    }
+}
+@media screen and (max-width: 414px){
+    .product-content p{
+        font-size: 12px;
+
+    }
+}
+@media screen and (max-width: 375px){}
