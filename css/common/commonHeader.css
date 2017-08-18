@@ -11,9 +11,8 @@ ol ,ul{
 .nav-key{
     height: 70px;
     line-height: 70px;
-    background: #010101;
+    /*background: #010101;*/
     opacity: .8;
-    /*background: pink;*/
 }
 
 .nav-key .lf{

@@ -81,6 +81,7 @@ ol ,ul{
 
 .college-content{
     overflow: hidden;
+    clear: both;
     margin-bottom:75px;
 }
 .college-banner{
@@ -89,7 +90,7 @@ ol ,ul{
 .college-banner img{
     width: 100%;
     /*position: absolute;*/
-    margin-top: -50px;
+    /*margin-top: -50px;*/
 }
 
 .college-slide-groups{
@@ -152,27 +153,35 @@ ol ,ul{
 
 .product-robots {
     overflow: hidden;
+    text-align: center;
 }
 
 .product-robots ul {
     overflow: hidden;
     display: flex;
 }
+.product-robots ul:nth-child(2){
+    margin-top:50px;
+}
 
 .product-robots ul li {
     flex: 1;
-    width: 30%;
-    float: left;
+    width: 50%;
+    text-align: center;
+    margin:0px 10px;
+}
+.product-robots ul li:first-child a{
+    /*display: inline-block;*/
+    /*width: 300px;*/
+    /*height: 300px;*/
+    /*background:url("../img/teaching.jpg") no-repeat center center;*/
 }
 
-.product-robots ul li:nth-child(2) {
-    margin: 0 10px;
-}
 
 .product-robots ul li > div {
     /* width: 350px;
      height: 300px;*/
-    background: #EEF5F8;
+    /*background: #EEF5F8;*/
     border-radius: 10px;
 }
 
@@ -186,9 +195,28 @@ ol ,ul{
     color: #0D91BC;
 }
 
-.product-robots ul li > p span {
-    font-size: 16px;
+.product-robots ul li > p a {
+    font-size: 20px;
 }
+
+
+.college-public a{
+    display: inline-block;
+    position: relative;
+    /*padding: 25px 45px;*/
+
+}
+.college-public a p{
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+    font-size: 14px;
+    line-height: 28px;
+    padding:0px 25px 20px;
+
+}
+
+
 
 
 /*===============================*/
@@ -229,6 +257,18 @@ ol ,ul{
     }
     .nav-scheme-key p:last-child{
         font-size: 12px;
+    }
+
+    .product-robots li img{
+        width: 100%;
+    }
+
+    .product-robots .college-public a p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .product-robots ul li p a{
+        font-size: 18px;
     }
 
 
@@ -280,11 +320,29 @@ ol ,ul{
         font-size: 14px;
 
     }
+    .product-robots ul li p a{
+        font-size: 14px;
+    }
+    .product-robots ul:nth-child(2){
+        margin-top:5%;
+    }
+
+    .product-robots ul li p a{
+        font-size: 14px;
+    }
+    .college-public a>p{
+        display: none;
+    }
+
+
 }
 @media screen and (max-width: 414px){
     .product-content p{
         font-size: 12px;
-
     }
+    .product-robots ul li p a{
+        font-size: 12px;
+    }
+
 }
 @media screen and (max-width: 375px){}

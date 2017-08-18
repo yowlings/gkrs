@@ -78,7 +78,7 @@ ol ,ul{
 }
 
 
-/*About内容部分*/
+/*简介 内容部分*/
 
 .about-title {
     width: 230px;
@@ -115,6 +115,13 @@ ol ,ul{
     /*float: left;*/
     /*text-align: center;*/
 }
+.about-content p{
+    font-size: 16px;
+}
+
+
+
+/*理念*/
 .core-idea .about-content dl{
     text-align: center;
 }
@@ -149,6 +156,9 @@ ol ,ul{
 }
 .add-ress .about-content p{
     text-align: center;
+}
+.team-group-lf p span{
+    font-size: 18px;
 }
 .about-content p i{
     display: inline-block;
@@ -187,3 +197,110 @@ ol ,ul{
 }.contact-information-content ul li:nth-child(4) i{
     background:url("../img/tel.png") no-repeat center center;
 }
+
+
+/*适配部分*/
+
+
+/*适配部分*/
+@media screen and (max-width: 1200px){
+    .vessel{
+        width: 100%;
+    }
+    .nav-key{
+        width: 100%;
+        /*padding:0% 2%;*/
+    }
+    .nav-key .lf{
+        display: none;
+    }
+    .nav-key .rt{
+        width: 100%;
+        /*padding:0% 2%;*/
+        display: flex;
+        margin:auto;
+    }
+    .nav-key .rt li{
+        flex: 1;
+        margin:0px;
+        text-align: center;
+    }
+    .nav-key .rt li a{
+        font-size: 18px;
+    }
+    .nav-scheme-key{
+        width: 95%;
+        /*margin-left:100px;*/
+        margin: 0 2.5%;
+    }
+    .nav-scheme-key p:first-child{
+        font-size: 18px;
+    }
+    .nav-scheme-key p:last-child{
+        font-size: 12px;
+    }
+
+    .content-college{
+        padding: 0 2%;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 768px){
+    .nav-key{
+        width: 95%;
+        line-height: 35px;
+        margin:0 2.5%;
+        box-sizing: border-box;
+    }
+    .nav-key .lf{
+        display: inline-block;
+        /*height:0px;*/
+    }
+    .nav-key .lf img{
+        width: 70%;
+    }
+    .nav-key .rt{
+        display: none;
+    }
+
+
+    .but-down {
+        display: inline-block;
+        margin-top: 10px;
+        float: right;
+    }
+    .but-down-list{
+        background:#181E2A;
+        opacity: .8;
+        text-align: center;
+    }
+    .but-down-list ul li:hover{
+        background:#4F8397;
+    }
+
+    .but-down-list ul li a {
+        font-size: 16px;
+        color: #337ab7;
+    }
+
+    .product-content{
+        line-height: 25px;
+    }
+    .product-content p{
+        font-size: 14px;
+
+    }
+    /*.product-robots ul li p a{*/
+        /*font-size: 14px;*/
+    /*}*/
+
+
+}
+@media screen and (max-width: 414px){
+
+}
+@media screen and (max-width: 375px){}
