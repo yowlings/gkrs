@@ -133,69 +133,86 @@ ol ,ul{
 }
 
 .team{}
-.team .team-content .team-group{
-    overflow: hidden;
+.team-group ul{
+    display: flex;
 }
-
-.team-content .team-group-top{
-    margin-top:30px;
+.team-group ul:nth-child(2){
+    margin-top:45px;
 }
-.team .team-group-lf{
-    float: left;
-    width: 12%;
-    /*text-align: center;*/
-}
-.team .team-group-lf img{
-}
-.team .team-group-lf p{
-    margin-left:20%
-}
-.team .team-group-rt{
-    width: 88%;
-    float: left;
-}
-.add-ress .about-content p{
+.team-group ul li{
+    flex: 1;
     text-align: center;
 }
-.team-group-lf p span{
-    font-size: 18px;
+.team-group ul li:nth-child(2){
+    margin:0px 5%;
 }
-.about-content p i{
+.team-group .team-group-name{
+    font-size: 22px;
+    color: #666;
+    margin:15px 0px;
+}
+.team-group .team-group-content h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: #666;
+}
+.team-group .team-group-content p{
+    color: #999999;
+    line-height: 25px;
+}
+.team-group ul li dt{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background:url("../img/wyj.jpg") no-repeat center center;
+}
+
+/*.about-content p i{*/
+    /*display: inline-block;*/
+    /*width: 18px;*/
+    /*height: 18px;*/
+    /*background:url("../img/media.png") no-repeat center 1px;*/
+    /*margin-right:12px;*/
+/*}*/
+
+.contact-address{
+    margin:70px 0px 10px;
+    overflow: hidden;
+}
+.contact-address .add-ress-lf{
+    float: left;
+    width: 38%;
+}
+.contact-address .add-ress-lf h3{
+    color: #03859F;
+    font-size: 20px;
+}
+.contact-address .add-ress-lf p{
+    margin-top:22px;
+}
+.contact-address .add-ress-lf i{
     display: inline-block;
     width: 18px;
     height: 18px;
-    background:url("../img/address.png") no-repeat center 1px;
+    background:url("../img/media.png") no-repeat center 1px;
+    margin-right:12px;
 }
-
-.team .team-group-lf dt{
-    /*display: inline-block;*/
-
+.contact-address .add-ress-lf p{
+    font-size: 16px;
 }
-
-
-.contact-information{}
-.contact-information-content{
-    text-align: center;
-}
-.contact-information-content ul{
-    display: flex;
-}
-.contact-information-content ul li{
-    flex: 1;
-}
-.contact-information-content ul li i{
-    display: inline-block;
-    width: 16px;
-    height: 14px;
-    background:url("../img/media.png") no-repeat center center;
-}
-.contact-information-content ul li:nth-child(2) i{
+.contact-address .add-ress-lf p:nth-child(3) i{
     background:url("../img/Business.png") no-repeat center center;
 }
-.contact-information-content ul li:nth-child(3) i{
+.contact-address .add-ress-lf p:nth-child(4) i{
     background:url("../img/server.png") no-repeat center center;
-}.contact-information-content ul li:nth-child(4) i{
+}
+.contact-address .add-ress-lf p:nth-child(5) i{
     background:url("../img/tel.png") no-repeat center center;
+}
+
+.contact-address .add-ress-rt{
+    width: 60%;
+    float: right;
 }
 
 
@@ -244,6 +261,20 @@ ol ,ul{
         padding: 0 2%;
     }
 
+    /*banner 部分一下的字体*/
+    .about-content .about-content p{
+        font-size: 14px;
+    }
+    .core-idea .about-content dd{
+        font-size: 14px;
+    }
+
+    .team .team-group-name{
+        font-size: 16px;
+    }
+    .team .team-group-content h3, .team .team-group-content p{
+        font-size: 14px;
+    }
 
 
 }
@@ -290,17 +321,43 @@ ol ,ul{
     .product-content{
         line-height: 25px;
     }
-    .product-content p{
+    .about-content p{
         font-size: 14px;
-
     }
-    /*.product-robots ul li p a{*/
-        /*font-size: 14px;*/
-    /*}*/
+    .about-contents .about-content ul li dd{
+        font-size:14px;
+    }
+    .contact-address .add-ress-lf{
+        width: 100%;
+        margin-bottom:10px;
+    }
+    .contact-address .add-ress-lf p span{
+        font-size: 14px;
+    }
+    .add-ress-rt{
+        display: none;
+    }
+
+
+
+
+
+
+
 
 
 }
 @media screen and (max-width: 414px){
+
+    .about-content p{
+        font-size: 12px;
+    }
+    .about-contents .about-content ul li dd{
+        font-size:12px;
+    }
+    .team .team-group-content h3, .team .team-group-content p{
+        font-size: 12px;
+    }
 
 }
 @media screen and (max-width: 375px){}

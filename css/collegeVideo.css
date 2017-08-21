@@ -77,12 +77,12 @@ ol ,ul{
     display: none;
 }
 
-/*睿思学院内容*/
+/*视频内容部分*/
 
-.college-content{
+.college-video-content{
     overflow: hidden;
-    clear: both;
-    margin-bottom:75px;
+    margin-bottom:60px;
+    padding: 0 2%;
 }
 .college-banner{
     margin:auto;
@@ -92,92 +92,57 @@ ol ,ul{
     /*position: absolute;*/
     /*margin-top: -50px;*/
 }
-
-.college-slide-groups{
-    clear: both;
+.video-content .content-title{
+    text-align: center;
 }
-
-.college-block ul{
-    display: flex;
+.content-title h3{
+    margin:25px 0px;
+    font-size: 24px;
+    color: #799693;
 }
-.college-block ul li{
-    /*float: left;*/
-    width: 50%;
-
+.content-title p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #63A59F;
 }
-
-/*===============================*/
-
-
-.product-robots {
+.content-list{
+    margin-top:48px;
     overflow: hidden;
-    text-align: center;
 }
-
-.product-robots ul {
-    overflow: hidden;
-    display: flex;
+.content-list .content-list-lf{
+    float: left;
+    width: 35%;
+    margin-right:10px;
 }
-.product-robots ul:nth-child(2){
-    margin-top:50px;
-}
-
-.product-robots ul li {
-    flex: 1;
-    width: 50%;
-    text-align: center;
-    margin:0px 10px;
-}
-.product-robots ul li:first-child a{
-    /*display: inline-block;*/
-    /*width: 300px;*/
-    /*height: 300px;*/
-    /*background:url("../img/teaching.jpg") no-repeat center center;*/
-}
-
-
-.product-robots ul li > div {
-    /* width: 350px;
-     height: 300px;*/
-    /*background: #EEF5F8;*/
-    border-radius: 10px;
-}
-
-.product-robots ul li > div > p {
-    margin: auto;
-}
-
-.product-robots ul li > p {
-    text-align: center;
-    margin-top: 15px;
-    color: #0D91BC;
-}
-
-.product-robots ul li > p a {
-    font-size: 20px;
-}
-
-
-.college-public a{
-    display: inline-block;
+.content-list-lf a{
     position: relative;
-    /*padding: 25px 45px;*/
-
+    display: inline-block;
 }
-.college-public a p{
+.content-list-lf a img{
+    /*width: 90%;*/
+}
+.content-list-lf span{
     color: #fff;
     position: absolute;
-    bottom: 0px;
-    font-size: 14px;
-    line-height: 28px;
-    padding:0px 25px 20px;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%);
 
 }
 
+.content-list-rt{
+    width: 60%;
+    float: right;
+}
+.content-list-rt .list-rt-hide{
+    display: none;
+}
+.content-list-rt p a{
+    color: #666666;
+    font-size: 16px;
+    line-height: 30px;
+}
 
-
-
-/*===============================*/
 
 /*适配部分*/
 @media screen and (max-width: 1200px){
@@ -217,17 +182,10 @@ ol ,ul{
         font-size: 12px;
     }
 
-    .product-robots li img{
+    .content-list .content-list-lf img{
         width: 100%;
     }
 
-    .product-robots .college-public a p{
-        font-size: 12px;
-        line-height: 20px;
-    }
-    .product-robots ul li p a{
-        font-size: 16px;
-    }
 
 
 }
@@ -270,37 +228,41 @@ ol ,ul{
         font-size: 16px;
         color: #337ab7;
     }
-
-    .product-content{
-        line-height: 25px;
+    .content-title h3{
+        font-size: 16px;
     }
-    .product-content p{
-        font-size: 14px;
-
-    }
-    .product-robots ul li p a{
+    .content-title p{
         font-size: 14px;
     }
-    .product-robots ul:nth-child(2){
-        margin-top:5%;
-    }
-
-    .product-robots ul li p a{
+    .content-list-lf a span{
         font-size: 14px;
-    }
-    .college-public a>p{
         display: none;
     }
+    .content-list-rt p a{
+        font-size: 14px;
+    }
+    .content-list-rt p:nth-child(1){
+        display: none;
+    }
+    .content-list-rt .list-rt-hide{
+        display: inline-block;
 
+
+    }
+    .content-list-rt .list-rt-hide a{
+        color: #666666;
+        font-size: 14px;
+        line-height: 25px;
+    }
 
 }
 @media screen and (max-width: 414px){
-    .product-content p{
+    .college-video-content .content-list-lf a span{
         font-size: 12px;
     }
-    .product-robots ul li p a{
+    .content-list-rt .list-rt-hide a{
         font-size: 12px;
+        line-height: 20px;
     }
-
 }
 @media screen and (max-width: 375px){}
