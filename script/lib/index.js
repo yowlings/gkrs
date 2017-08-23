@@ -15,10 +15,10 @@ for (var i = 0; i < listLi.length; i++) {
 
 function nick(num) {
   // list.style.marginLeft = -num * 100 + '%';
-  list.style.marginLeft = -num * 100 + '%';
+  list.style.marginLeft = -num * 1000 + '%';
 }
 var index = 0;
-var sid = setInterval(play,3000);
+var sid = setInterval(play,5000);
 function play() {
   index++;
   // if (index > listLi.length - 1) {
@@ -33,5 +33,5 @@ banner.onmouseover = function() {
 }
 
 banner.onmouseout = function() {
-  sid = setInterval(play, 1000);
+  sid = setInterval(play, 5000);
 }
