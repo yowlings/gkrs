@@ -77,8 +77,6 @@ ol ,ul{
     display: none;
 }
 
-/*视频内容部分*/
-
 .college-video-content{
     overflow: hidden;
     margin-bottom:60px;
@@ -89,9 +87,9 @@ ol ,ul{
 }
 .college-banner img{
     width: 100%;
-    /*position: absolute;*/
-    /*margin-top: -50px;*/
 }
+
+/*<!--ROS 教学系列课程 开始-->*/
 .video-content .content-title{
     text-align: center;
 }
@@ -105,43 +103,59 @@ ol ,ul{
     line-height: 30px;
     color: #63A59F;
 }
-.content-list{
-    margin-top:48px;
-    overflow: hidden;
+
+.introdution-info{}
+.introdution-info-list h4{
+    font-size: 18px;
+    color: #808080;
+    margin-bottom:20px;
 }
-.content-list .content-list-lf{
-    float: left;
-    width: 35%;
-    margin-right:10px;
+.introdution-info .introdution-info-title p{
+    font-size: 20px;
+    margin-bottom:35px;
+
 }
-.content-list-lf a{
-    position: relative;
+.introdution-info-list{
+    margin-top:30px;
+}
+.introdution-list-content{
+    /*margin-top:30px;*/
+}
+.introdution-list-content .list-content{
+    float:left;
+    height: 40px;
+    margin-right:5px;
+}
+.list-content i{
     display: inline-block;
+    width: 12px;
+    height: 12px;
+    background:red;
 }
-.content-list-lf a img{
-    /*width: 90%;*/
-}
-.content-list-lf span{
-    color: #fff;
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform:translate(-50%);
-
-}
-
-.content-list-rt{
-    width: 60%;
-    float: right;
-}
-.content-list-rt .list-rt-hide{
-    display: none;
-}
-.content-list-rt p a{
-    color: #666666;
+.list-content span, .list-lore p{
+    color: #A7A7A7;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 27px;
 }
+.introdution-list-content .list-lore{
+    /*float: left;*/
+}
+.introdution-info-list .list-line{
+    width: 100%;
+    height: 1px;
+    background: #E6E9EB;
+    margin-top:30px;
+}
+
+
+/*<!--ROS 教学系列课程 结束-->*/
+
+
+
+
+
+
+
 
 
 /*适配部分*/
@@ -182,9 +196,7 @@ ol ,ul{
         font-size: 12px;
     }
 
-    .content-list .content-list-lf img{
-        width: 100%;
-    }
+
 
 
 
@@ -234,35 +246,9 @@ ol ,ul{
     .content-title p{
         font-size: 14px;
     }
-    .content-list-lf a span{
-        font-size: 14px;
-        display: none;
-    }
-    .content-list-rt p a{
-        font-size: 14px;
-    }
-    .content-list-rt p:nth-child(1){
-        display: none;
-    }
-    .content-list-rt .list-rt-hide{
-        display: inline-block;
-
-
-    }
-    .content-list-rt .list-rt-hide a{
-        color: #666666;
-        font-size: 14px;
-        line-height: 25px;
-    }
 
 }
 @media screen and (max-width: 414px){
-    .college-video-content .content-list-lf a span{
-        font-size: 12px;
-    }
-    .content-list-rt .list-rt-hide a{
-        font-size: 12px;
-        line-height: 20px;
-    }
+
 }
 @media screen and (max-width: 375px){}
