@@ -108,45 +108,53 @@ ol ,ul{
 .introdution-info-list h4{
     font-size: 18px;
     color: #808080;
-    margin-bottom:20px;
+    margin-bottom:15px;
 }
 .introdution-info .introdution-info-title p{
     font-size: 20px;
     margin-bottom:35px;
 
 }
-.introdution-info-list{
-    margin-top:30px;
-}
+
+/*==================*/
+
+/*==================*/
 .introdution-list-content{
-    /*margin-top:30px;*/
+    overflow: hidden;
 }
-.introdution-list-content .list-content{
-    float:left;
-    height: 40px;
-    margin-right:5px;
+.introdution-list-content p:nth-child(1) {
+    float: left;
+    /*height:50px;*/
+    width: 8%;
+    overflow: hidden;
+    /*text-align: center;*/
 }
-.list-content i{
+.introdution-list-content p:nth-child(1) i{
     display: inline-block;
     width: 12px;
     height: 12px;
     background:red;
 }
-.list-content span, .list-lore p{
-    color: #A7A7A7;
+.introdution-list-content p:nth-child(1) span{
+    color:#959595;
     font-size: 16px;
-    line-height: 27px;
 }
-.introdution-list-content .list-lore{
-    /*float: left;*/
+
+.introdution-list-content p:nth-child(2){
+    float: left;
+    width: 90%;
+    color:#959595;
+    font-size: 16px;
+}
+.introdution-list-knowledge{
+    margin-top:12px;
 }
 .introdution-info-list .list-line{
     width: 100%;
     height: 1px;
     background: #E6E9EB;
-    margin-top:30px;
+    margin:30px 0px;
 }
-
 
 /*<!--ROS 教学系列课程 结束-->*/
 
