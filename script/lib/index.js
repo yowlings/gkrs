@@ -1,37 +1,38 @@
-var banner = document.getElementsByClassName('banner-show')[0];
-var list = document.getElementsByClassName('banner-list')[0];
-var listLi = list.getElementsByTagName('li');
-
-for (var i = 0; i < listLi.length; i++) {
-  ( function( index ) {
-    nick( index );
-  } )( i );
-  // listLi[i].style.backgroundImage = 'url(img/' + i + '.jpg)';
-  // $(".banner-list img")[i].style.backgroundImage='url(../../img/' + i + '.png)';
-  // console.log($(".banner-list img")[i])
-
-}
-//3.定义核心函数 该函数通过指定索引值查找元素 设置样式
-
-function nick(num) {
-  // list.style.marginLeft = -num * 100 + '%';
-  list.style.marginLeft = -num * 1000 + '%';
-}
+var banner = $(".banner-show");
+var list = $(".banner-list");
+var lis = $(".banner-list>li");
 var index = 0;
-var sid = setInterval(play,5000);
-function play() {
-  index++;
-  // if (index > listLi.length - 1) {
-  //   index = 0;
-  // }
-  index>
-  nick(index);
-}
 
-banner.onmouseover = function() {
-  clearInterval(sid);
-}
 
-banner.onmouseout = function() {
-  sid = setInterval(play, 5000);
-}
+//function togle(num) {
+//    list.animate({marginLeft: -num * 100 + '%'})
+//}
+//function play() {
+//    index++;
+//    if (index > lis.length - 1) {
+//        list.css({marginLeft: 0});
+//        index = 1
+//    }
+//    togle(index)
+//}
+
+//var timer = setInterval(play, 5000);
+var timer=null;
+var func = function(){
+  timer = setTimeout(function(){
+    index++;
+    if (index > lis.length - 1) {
+      list.css({marginLeft: 0});
+      index = 1
+    }
+    list.animate({marginLeft: -index * 100 + '%'});
+    func();
+  },3000);
+};
+
+banner.hover(function () {
+  clearInterval(timer);
+}, function () {
+  // timer = setInterval(play, 1000)
+  func();
+});
