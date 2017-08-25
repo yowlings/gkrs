@@ -36,4 +36,3 @@ banner.hover(function () {
   // timer = setInterval(play, 1000)
   func();
 });
-
