@@ -200,6 +200,9 @@ ol ,ul{
 .contact-address .add-ress-lf p{
     font-size: 16px;
 }
+.contact-address .add-ress-lf p span{
+    color: #696969;
+}
 .contact-address .add-ress-lf p:nth-child(3) i{
     background:url("../img/Business.png") no-repeat center center;
 }
@@ -214,6 +217,21 @@ ol ,ul{
     width: 60%;
     float: right;
 }
+.add-ress-rt p{
+    float: right;
+    color: #616161;
+    font-size: 16px;
+}
+.add-ress-rt p i{
+    width: 18px;
+    height: 18px;
+    background:url('../img/address.png') no-repeat center center;
+    float: left;
+    position: relative;
+    top: 0px;
+    right:6px;
+}
+
 
 
 /*适配部分*/
