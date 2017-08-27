@@ -111,9 +111,10 @@ ol ,ul{
     color: #808080;
     margin-bottom:15px;
 }
-.introdution-info . p{
+.introdution-info .introdution-info-title p{
     font-size: 20px;
     margin-bottom:35px;
+
 }
 
 /*==================*/
@@ -265,17 +266,12 @@ ol ,ul{
     .introdution-info-list h4{
         font-size: 16px;
     }
-    .introdution-info . p{
-        font-size: 14px;
-    }
-
     .introdution-list-content p:nth-child(1) span{
         font-size: 14px;
     }
     .introdution-list-content p:nth-child(2){
         font-size: 14px;
     }
-
 
 
     .footer-logo > a img {

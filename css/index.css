@@ -6,9 +6,10 @@
     /*line-height: 48px;*/
     /*margin: 0 2.5%;*/
     background: #181E2A;
-    opacity: .8;
+    opacity: 1;
     position: absolute;
     clear: both;
+    height: 0px;
 }
 
 /*无需*/
@@ -681,7 +682,9 @@
     .footer-cell ul li ul li a {
         font-size: 12px;
     }
-
+    .footer-logo > a img {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 414px) {
@@ -692,7 +695,7 @@
 
 @media screen and (max-width: 375px) {
     .footer-logo > a img {
-        background-size: 20%;
+        /*background-size: 20%;*/
     }
 
     .footer .footer-cell > ul > li {

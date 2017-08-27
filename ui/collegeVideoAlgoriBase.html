@@ -71,257 +71,250 @@
 
         <div class="video-content introdution-info">
             <div class="content-title introdution-info-title">
-                <h3>ROS教学系列课程</h3>
-                <p>一、ROS入门 </p>
+                <h3>基于ROS的机器人算法系列课程</h3>
+                <p>一、机器人算法基础 </p>
             </div>
             <div class="introdution-info-list">
-                <h4>1,ROS介绍与安装</h4>
+                <h4>1.1,机器人算法概述</h4>
                 <div class="introdution-list-content introdution-list-calendar">
                     <p >
                         <i ></i>
                         <span>内容：</span>
                     </p>
                     <p >
-                        机器  人是复杂的系统工程，涉及机械、电子、控制、软件等许多学科，机器人的运行离不开一个可靠的操作系统。本节课将介绍ROS的基本概念、发展历程、
-                        系统特点，演示和介绍搭载了ROS系统的xbot机器人，让学生对ROS有感性认识。另外再介绍系列课程所要讲授的内容。最后演示ROS的安装配置过程。
+                        机器人算法的总体概述。
                     </p>
                 </div>
 
-                <div class="introdution-list-content introdution-list-knowledge">
-                    <p >
-                        <i ></i>
-                        <span>知识点：</span>
-                    </p>
-                    <p >
-                        为什么要用ROS？什么是ROS、发展史、ROS特点 ROS效果演示： xbot导航 课程介绍 演示安装过程。
-                    </p>
-                </div>
+                <!--<div class="introdution-list-content introdution-list-knowledge">-->
+                    <!--<p >-->
+                        <!--<i ></i>-->
+                        <!--<span>知识点：</span>-->
+                    <!--</p>-->
+                    <!--<p >-->
+                        <!--为什么要用ROS？什么是ROS、发展史、ROS特点 ROS效果演示： xbot导航 课程介绍 演示安装过程。-->
+                    <!--</p>-->
+                <!--</div>-->
 
                 <p class="list-line"></p>
             </div>
 
             <div class="introdution-info-list introdution-list-calendar">
-                <h4>2、ROS基本架构</h4>
+                <h4>1.2、机器人的坐标体系与转换方法</h4>
                 <div class="introdution-list-content">
                     <p >
                         <i ></i>
                         <span>内容：</span>
                     </p>
                     <p >
-                        本节课介绍ROS的基本架构。首先提出问题：pr2机器人如何组织调度松散的各元器件，引出ROS架构这一主题。先从从宏观上介绍ROS系统的结构，然后
-                        重点介绍和演示master、node、topic、msg等概念。
+                        坐标体系在机器人当中至关重要，是机器人建模的数学基础，几乎也可以说是其他一切算法的数学基础。除非完全静止不动，否则机器人的每一个任何的微小的运动都涉及到运动解算和位姿的估算，这其中势必涉及到机器人坐标体系的运算和转换。
                     </p>
                 </div>
 
-                <div class="introdution-list-content introdution-list-knowledge">
-                    <p >
-                        <i ></i>
-                        <span>知识点：</span>
-                    </p>
-                    <p >
-                        知识点：为什么要用ROS？什么是ROS、发展史、ROS特点 ROS效果演示： xbot导航 课程介绍 演示安装过程。
-                    </p>
-                </div>
+                <!--<div class="introdution-list-content introdution-list-knowledge">-->
+                    <!--<p >-->
+                        <!--<i ></i>-->
+                        <!--<span>知识点：</span>-->
+                    <!--</p>-->
+                    <!--<p >-->
+                        <!--知识点：为什么要用ROS？什么是ROS、发展史、ROS特点 ROS效果演示： xbot导航 课程介绍 演示安装过程。-->
+                    <!--</p>-->
+                <!--</div>-->
 
                 <p class="list-line"></p>
             </div>
             <div class="introdution-info-list introdution-list-calendar">
-                <h4>3、ROS文件系统</h4>
+                <h4>1.3、机器人地图表示方法</h4>
                 <div class="introdution-list-content">
                     <p >
                         <i ></i>
                         <span>内容：</span>
                     </p>
                     <p >
-                        本节课介绍ROS文件系统。由大到小依次讲解工作空间、编译系统、包的组织结构、launch文件结构。让学生对具体的ROS文件和编译有更深的认识。
+                        就像人走路需要认路一样，机器人运动也必须有一个地图依据，无论是之前已经建立好的地图（就像我们参考的地图），还是在机器人移动过程中同步建立起来的地图（我们去认陌生的地方的路），机器人必须有路可走。所以机器人地图的表示方法和存储记忆方法直接决定机器人“会不会走路”。这一节我们将介绍机器人具体的地图表示方法。
                     </p>
                 </div>
 
-                <div class="introdution-list-content introdution-list-knowledge">
-                    <p >
-                        <i ></i>
-                        <span>知识点：</span>
-                    </p>
-                    <p >
-                       ROS工作空间、catkin 文件编译系统 ROS package结构、package.xml、CMakeLists.xml ROS launch文件结构
-                    </p>
-                </div>
+                <!--<div class="introdution-list-content introdution-list-knowledge">-->
+                    <!--<p >-->
+                        <!--<i ></i>-->
+                        <!--<span>知识点：</span>-->
+                    <!--</p>-->
+                    <!--<p >-->
+                        <!--ROS工作空间、catkin 文件编译系统 ROS package结构、package.xml、CMakeLists.xml ROS launch文件结构-->
+                    <!--</p>-->
+                <!--</div>-->
 
                 <p class="list-line"></p>
             </div>
             <div class="introdution-info-list introdution-list-calendar">
-                <h4>4、ROS基本指令（上）</h4>
+                <h4>4、分层式地图的概念</h4>
                 <div class="introdution-list-content">
                     <p >
                         <i ></i>
                         <span>内容：</span>
                     </p>
                     <p >
-                        讲解ROS常用的指令，结合实例解析每个指令的用法以和使用技巧。
+                        分层式地图是表达机器人地图的一个很好的方法，它将地图分为包括原始地图层、障碍物地图层以及膨胀层在内的基础三层式地图，并且可以根据需求定义其他的更多的层以表示更多的信息。本节我们将详细介绍分层式地图的原理和方法。
                     </p>
                 </div>
 
-                <div class="introdution-list-content introdution-list-knowledge">
-                    <p >
-                        <i ></i>
-                        <span>知识点：</span>
-                    </p>
-                    <p >
-                        rospack、roscd、rosls、rosed、catkin_make、rosrun、roslaunch等指令用法
-                    </p>
-                </div>
+                <!--<div class="introdution-list-content introdution-list-knowledge">-->
+                    <!--<p >-->
+                        <!--<i ></i>-->
+                        <!--<span>知识点：</span>-->
+                    <!--</p>-->
+                    <!--<p >-->
+                        <!--rospack、roscd、rosls、rosed、catkin_make、rosrun、roslaunch等指令用法-->
+                    <!--</p>-->
+                <!--</div>-->
 
                 <p class="list-line"></p>
             </div>
             <div class="introdution-info-list introdution-list-calendar">
-                <h4>5、ROS基本指令（下）</h4>
+                <h4>1.5、机械臂控制算法</h4>
                 <div class="introdution-list-content">
                     <p >
                         <i ></i>
                         <span>内容：</span>
                     </p>
                     <p >
-                        讲解ROS常用的指令，结合实例解析每个指令的用法以和使用技巧。
+                        本节将机械臂控制算法作一个重点的介绍。
                     </p>
                 </div>
 
-                <div class="introdution-list-content introdution-list-knowledge">
-                    <p >
-                        <i ></i>
-                        <span>知识点：</span>
-                    </p>
-                    <p >
-                       rosnode、rostopic、rosservice等指令用法
-                    </p>
-                </div>
+                <!--<div class="introdution-list-content introdution-list-knowledge">-->
+                    <!--<p >-->
+                        <!--<i ></i>-->
+                        <!--<span>知识点：</span>-->
+                    <!--</p>-->
+                    <!--<p >-->
+                        <!--rosnode、rostopic、rosservice等指令用法-->
+                    <!--</p>-->
+                <!--</div>-->
 
                 <p class="list-line"></p>
             </div>
             <div class="introdution-info-list introdution-list-calendar">
-                <h4>6、ROS编程实现publisher和subscriber</h4>
+                <h4>1.6、机器人定位算法</h4>
                 <div class="introdution-list-content">
                     <p >
                         <i ></i>
                         <span>内容：</span>
                     </p>
                     <p >
-                        本节课程将带领学生编写C++程序，设计两个node，实现publisher和subscriber之间的通信。让学生掌握ROS C++编程的基本要领，理解topic通信的实现
-                        方法。
+                        定位算法解决“我现在在哪儿？”的问题，是机器人运动的基础问题之一（我要去哪儿？我现在在哪儿？怎么去？）。
                     </p>
                 </div>
 
-                <div class="introdution-list-content introdution-list-knowledge">
-                    <p >
-                        <i ></i>
-                        <span>知识点：</span>
-                    </p>
-                    <p >
-                        QT环境配置 C++编写程序，实现小海龟画五角星
-                    </p>
-                </div>
+                <!--<div class="introdution-list-content introdution-list-knowledge">-->
+                    <!--<p >-->
+                        <!--<i ></i>-->
+                        <!--<span>知识点：</span>-->
+                    <!--</p>-->
+                    <!--<p >-->
+                        <!--QT环境配置 C++编写程序，实现小海龟画五角星-->
+                    <!--</p>-->
+                <!--</div>-->
 
                 <p class="list-line"></p>
             </div>
             <div class="introdution-info-list introdution-list-calendar">
-                <h4>7、ROS编程实现request和reply</h4>
+                <h4>1.7、	机器人路径规划算法</h4>
                 <div class="introdution-list-content">
                     <p >
                         <i ></i>
                         <span>内容：</span>
                     </p>
                     <p >
-                        本节课用python编写ROS程序，设计两个node，实现request与reply通信。讲解ROS python编程的技巧，从原理上演示service的通信方式。
+                        路径规划算法回答“怎么去？”的问题。
                     </p>
                 </div>
 
-                <div class="introdution-list-content introdution-list-knowledge">
-                    <p >
-                        <i ></i>
-                        <span>知识点：</span>
-                    </p>
-                    <p >
-                        开发环境配置 Python编写程序
-                    </p>
-                </div>
+                <!--<div class="introdution-list-content introdution-list-knowledge">-->
+                    <!--<p >-->
+                        <!--<i ></i>-->
+                        <!--<span>知识点：</span>-->
+                    <!--</p>-->
+                    <!--<p >-->
+                        <!--开发环境配置 Python编写程序-->
+                    <!--</p>-->
+                <!--</div>-->
 
                 <p class="list-line"></p>
             </div>
             <div class="introdution-info-list introdution-list-calendar">
-                <h4>8、ROS 坐标转换系统与rviz插件</h4>
+                <h4>1.8、机器人导航控制算法</h4>
                 <div class="introdution-list-content">
                     <p >
                         <i ></i>
                         <span>内容：</span>
                     </p>
                     <p >
-                        机器人有着各式各样的形态，在ROS中需要掌握各个关节和机构的坐标，因此就有了TF。本节课程将介绍TF的原理和命令，以xbot2机器人作为演示，并介
-                        绍RViz插件。最后介绍urdf文件与机器人模型。
+                        导航控制算法解决“我该怎么迈步子？”以及“前面有人，我怎么绕开他？”的问题。
                     </p>
                 </div>
 
-                <div class="introdution-list-content introdution-list-knowledge">
-                    <p >
-                        <i ></i>
-                        <span>知识点：</span>
-                    </p>
-                    <p >
-                        TF坐标转换系统概念及命令演示（5分钟） RViz插件用法介绍（5分钟） Urdf文件与机器人模型（5分钟）
-                    </p>
-                </div>
+                <!--<div class="introdution-list-content introdution-list-knowledge">-->
+                    <!--<p >-->
+                        <!--<i ></i>-->
+                        <!--<span>知识点：</span>-->
+                    <!--</p>-->
+                    <!--<p >-->
+                        <!--TF坐标转换系统概念及命令演示（5分钟） RViz插件用法介绍（5分钟） Urdf文件与机器人模型（5分钟）-->
+                    <!--</p>-->
+                <!--</div>-->
 
                 <p class="list-line"></p>
             </div>
             <div class="introdution-info-list introdution-list-calendar">
-                <h4>9、ROS的调试</h4>
+                <h4>1.9、同步定位与地图构建（SLAM）算法</h4>
                 <div class="introdution-list-content">
                     <p >
                         <i ></i>
                         <span>内容：</span>
                     </p>
                     <p >
-                        调试是每一个ROS开发者不可避免的问题，由于ROS系统庞大复杂，可能会出现各种问题。本节课将讲解ROS的调试工具、调试方法、常见错误和调试技巧
-                        将实际工程项目中积累的经验和方法教给学生。
+                        同步定位与地图构建算法让机器人时刻知道自己的实时位置和知悉自己周围的环境状况，以决定下一步该怎么走。
                     </p>
                 </div>
 
-                <div class="introdution-list-content introdution-list-knowledge">
-                    <p >
-                        <i ></i>
-                        <span>知识点：</span>
-                    </p>
-                    <p >
-                        ROS bag、Rqt、roswtf 调试技巧与常见错误
-                    </p>
-                </div>
+                <!--<div class="introdution-list-content introdution-list-knowledge">-->
+                    <!--<p >-->
+                        <!--<i ></i>-->
+                        <!--<span>知识点：</span>-->
+                    <!--</p>-->
+                    <!--<p >-->
+                        <!--ROS bag、Rqt、roswtf 调试技巧与常见错误-->
+                    <!--</p>-->
+                <!--</div>-->
 
                 <p class="list-line"></p>
             </div>
             <div class="introdution-info-list introdution-list-calendar">
-                <h4>10、项目作业+（平台推广）</h4>
+                <h4>1.10、机器视觉算法与机器人</h4>
                 <div class="introdution-list-content">
                     <p >
                         <i ></i>
                         <span>内容：</span>
                     </p>
                     <p >
-                        课程最后是一个需要学生独立完成的项目作业，完成该作业需要用到本课程讲授的大部分内容，部分知识点需要自主学习。睿思学院提供代码审阅服务。
+                        介绍一些与机器人相关的机器视觉方面的前沿算法和应用。
                     </p>
                 </div>
 
-                <div class="introdution-list-content introdution-list-knowledge">
-                    <p >
-                        <i ></i>
-                        <span>知识点：</span>
-                    </p>
-                    <p >
-                        ROS bag、Rqt、roswtf 调试技巧与常见错误
-                    </p>
-                </div>
+                <!--<div class="introdution-list-content introdution-list-knowledge">-->
+                    <!--<p >-->
+                        <!--<i ></i>-->
+                        <!--<span>知识点：</span>-->
+                    <!--</p>-->
+                    <!--<p >-->
+                        <!--ROS bag、Rqt、roswtf 调试技巧与常见错误-->
+                    <!--</p>-->
+                <!--</div>-->
 
                 <p class="list-line"></p>
             </div>
-
-
 
 
         </div>

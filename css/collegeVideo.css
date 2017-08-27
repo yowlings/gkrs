@@ -12,7 +12,7 @@ ol ,ul{
     height: 70px;
     line-height: 70px;
     background: #010101;
-    opacity: .8;
+    opacity: 1;
     /*background: pink;*/
 }
 
@@ -82,10 +82,12 @@ ol ,ul{
 .college-video-content{
     overflow: hidden;
     margin-bottom:60px;
-    padding: 0 2%;
+    margin-top:-47px;
+    padding: 0 2.5%;
 }
 .college-banner{
     margin:auto;
+
 }
 .college-banner img{
     width: 100%;
@@ -105,6 +107,18 @@ ol ,ul{
     line-height: 30px;
     color: #63A59F;
 }
+
+/*学习目标 红色字体*/
+
+.video-content .content-title .video-content-akey{
+    text-align:center;
+    color:red;
+    font-size:18px;
+    margin-top:10px;
+}
+/*学习目标 红色字体*/
+
+
 .content-list{
     margin-top:48px;
     overflow: hidden;
@@ -217,7 +231,7 @@ ol ,ul{
     }
     .but-down-list{
         background:#181E2A;
-        opacity: .8;
+        /*opacity: .8;*/
         text-align: center;
     }
     .but-down-list ul li:hover{
@@ -233,6 +247,10 @@ ol ,ul{
     }
     .content-title p{
         font-size: 14px;
+    }
+
+    .video-content .content-title .video-content-akey{
+        font-size:16px;
     }
     .content-list-lf a span{
         font-size: 14px;
@@ -255,6 +273,9 @@ ol ,ul{
         line-height: 25px;
     }
 
+    .footer-logo > a img {
+        width: 50%;
+    }
 }
 @media screen and (max-width: 414px){
     .college-video-content .content-list-lf a span{
@@ -263,6 +284,10 @@ ol ,ul{
     .content-list-rt .list-rt-hide a{
         font-size: 12px;
         line-height: 20px;
+    }
+
+    .video-content .content-title .video-content-akey{
+        font-size:12px;
     }
 }
 @media screen and (max-width: 375px){}
