@@ -12,7 +12,7 @@ ol ,ul{
     height: 70px;
     line-height: 70px;
     background: #010101;
-    opacity: .8;
+    /*opacity: .8;*/
     /*background: pink;*/
 }
 
@@ -279,6 +279,10 @@ ol ,ul{
         padding: 0 2%;
     }
 
+    .about-title > h3 {
+        font-size: 20px;
+    }
+
     /*banner 部分一下的字体*/
     .about-content .about-content p{
         font-size: 14px;
@@ -324,7 +328,8 @@ ol ,ul{
     }
     .but-down-list{
         background:#181E2A;
-        opacity: .8;
+        /*opacity: .8;*/
+        opacity: 1;
         text-align: center;
     }
     .but-down-list ul li:hover{
@@ -356,12 +361,9 @@ ol ,ul{
         display: none;
     }
 
-
-
-
-
-
-
+    .footer-logo > a img {
+        width: 50%;
+    }
 
 
 }

@@ -12,7 +12,7 @@ ol ,ul{
     height: 70px;
     line-height: 70px;
     background: #010101;
-    opacity: .8;
+    /*opacity: .8;*/
     /*background: pink;*/
 }
 
@@ -83,6 +83,8 @@ ol ,ul{
     overflow: hidden;
     clear: both;
     margin-bottom:75px;
+    margin-top:-22px;
+    padding:0 2.5%;
 }
 .college-banner{
     margin:auto;
@@ -259,7 +261,8 @@ ol ,ul{
     }
     .but-down-list{
         background:#181E2A;
-        opacity: .8;
+        /*opacity: .8;*/
+        opacity: 1;
         text-align: center;
     }
     .but-down-list ul li:hover{
@@ -290,6 +293,10 @@ ol ,ul{
     }
     .college-public a>p{
         display: none;
+    }
+
+    .footer-logo > a img {
+        width: 50%;
     }
 
 

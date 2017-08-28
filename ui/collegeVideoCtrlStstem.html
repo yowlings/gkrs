@@ -71,19 +71,18 @@
 
         <div class="video-content introdution-info">
             <div class="content-title introdution-info-title">
-                <h3>ROS教学系列课程</h3>
-                <p>一、ROS入门 </p>
+                <h3>基于ROS的机器人硬件系列课程</h3>
+                <p>一、机器人控制系统 </p>
             </div>
             <div class="introdution-info-list">
-                <h4>1,ROS介绍与安装</h4>
+                <h4>1,机器人执行单元</h4>
                 <div class="introdution-list-content introdution-list-calendar">
                     <p >
                         <i ></i>
                         <span>内容：</span>
                     </p>
                     <p >
-                        机器  人是复杂的系统工程，涉及机械、电子、控制、软件等许多学科，机器人的运行离不开一个可靠的操作系统。本节课将介绍ROS的基本概念、发展历程、
-                        系统特点，演示和介绍搭载了ROS系统的xbot机器人，让学生对ROS有感性认识。另外再介绍系列课程所要讲授的内容。最后演示ROS的安装配置过程。
+                        什么是舵机、步进电机、伺服电机? 它们的分别控制方式及优缺点
                     </p>
                 </div>
 
@@ -93,7 +92,7 @@
                         <span>知识点：</span>
                     </p>
                     <p >
-                        为什么要用ROS？什么是ROS、发展史、ROS特点 ROS效果演示： xbot导航 课程介绍 演示安装过程。
+                        舵机、步进电机、伺服电机控制方式。
                     </p>
                 </div>
 
@@ -101,15 +100,14 @@
             </div>
 
             <div class="introdution-info-list introdution-list-calendar">
-                <h4>2、ROS基本架构</h4>
+                <h4>2、伺服电机速度闭环(上)</h4>
                 <div class="introdution-list-content">
                     <p >
                         <i ></i>
                         <span>内容：</span>
                     </p>
                     <p >
-                        本节课介绍ROS的基本架构。首先提出问题：pr2机器人如何组织调度松散的各元器件，引出ROS架构这一主题。先从从宏观上介绍ROS系统的结构，然后
-                        重点介绍和演示master、node、topic、msg等概念。
+                        本节课介绍恒转速(速度闭环)控制，伺服电机分类，直流无刷、直流有刷、交流 电机，光电编码器、绝对值编码器。
                     </p>
                 </div>
 
@@ -119,21 +117,21 @@
                         <span>知识点：</span>
                     </p>
                     <p >
-                        知识点：为什么要用ROS？什么是ROS、发展史、ROS特点 ROS效果演示： xbot导航 课程介绍 演示安装过程。
+                        恒转速控制、绝对值编码器
                     </p>
                 </div>
 
                 <p class="list-line"></p>
             </div>
             <div class="introdution-info-list introdution-list-calendar">
-                <h4>3、ROS文件系统</h4>
+                <h4>3、伺服电机速度闭环(下)</h4>
                 <div class="introdution-list-content">
                     <p >
                         <i ></i>
                         <span>内容：</span>
                     </p>
                     <p >
-                        本节课介绍ROS文件系统。由大到小依次讲解工作空间、编译系统、包的组织结构、launch文件结构。让学生对具体的ROS文件和编译有更深的认识。
+                        在回顾上节课恒转速控制的同时，引入PID控制算法，结合PID控制讲解具体恒	转速控制原理的实现方式。
                     </p>
                 </div>
 
@@ -143,21 +141,21 @@
                         <span>知识点：</span>
                     </p>
                     <p >
-                       ROS工作空间、catkin 文件编译系统 ROS package结构、package.xml、CMakeLists.xml ROS launch文件结构
+                        PID、速度闭环控制
                     </p>
                 </div>
 
                 <p class="list-line"></p>
             </div>
             <div class="introdution-info-list introdution-list-calendar">
-                <h4>4、ROS基本指令（上）</h4>
+                <h4>4、伺服电机位置闭环控制。恒转矩闭环控制</h4>
                 <div class="introdution-list-content">
                     <p >
                         <i ></i>
                         <span>内容：</span>
                     </p>
                     <p >
-                        讲解ROS常用的指令，结合实例解析每个指令的用法以和使用技巧。
+                        结合PID讲解位置闭环控制、恒转矩控制原理实现方式。通过三四节课对速度闭	环、位置闭环，恒转矩闭环的讲解引导学生实现对PID的灵活运用。
                     </p>
                 </div>
 
@@ -167,21 +165,21 @@
                         <span>知识点：</span>
                     </p>
                     <p >
-                        rospack、roscd、rosls、rosed、catkin_make、rosrun、roslaunch等指令用法
+                        PID， 位置闭环控制， 恒转矩闭环控制， 双闭环嵌套控制，
                     </p>
                 </div>
 
                 <p class="list-line"></p>
             </div>
             <div class="introdution-info-list introdution-list-calendar">
-                <h4>5、ROS基本指令（下）</h4>
+                <h4>5、双轮差速底盘运动控制与运动解算(上)</h4>
                 <div class="introdution-list-content">
                     <p >
                         <i ></i>
                         <span>内容：</span>
                     </p>
                     <p >
-                        讲解ROS常用的指令，结合实例解析每个指令的用法以和使用技巧。
+                        本节课围绕让双轮底盘以1m/s速度绕着半径为1m的圆运动讲解
                     </p>
                 </div>
 
@@ -191,22 +189,21 @@
                         <span>知识点：</span>
                     </p>
                     <p >
-                       rosnode、rostopic、rosservice等指令用法
+                        双轮运动模型 , 双轮运动运动速度解算：线速度、角速度。
                     </p>
                 </div>
 
                 <p class="list-line"></p>
             </div>
             <div class="introdution-info-list introdution-list-calendar">
-                <h4>6、ROS编程实现publisher和subscriber</h4>
+                <h4>6、麦克纳母轮底盘运动控制与运动解算</h4>
                 <div class="introdution-list-content">
                     <p >
                         <i ></i>
                         <span>内容：</span>
                     </p>
                     <p >
-                        本节课程将带领学生编写C++程序，设计两个node，实现publisher和subscriber之间的通信。让学生掌握ROS C++编程的基本要领，理解topic通信的实现
-                        方法。
+                        以速度1m/s前进解算6个麦克纳母轮的各自速度， 以速度1m/s左右平移解算6个麦克纳母轮的各自速度。 麦克纳母轮对电机负重的影响。
                     </p>
                 </div>
 
@@ -216,21 +213,21 @@
                         <span>知识点：</span>
                     </p>
                     <p >
-                        QT环境配置 C++编写程序，实现小海龟画五角星
+                        6驱运动解算， 前后、左右平移运动速度解算 效率计算 最大负重。 麦克纳母轮安装方式
                     </p>
                 </div>
 
                 <p class="list-line"></p>
             </div>
             <div class="introdution-info-list introdution-list-calendar">
-                <h4>7、ROS编程实现request和reply</h4>
+                <h4>7、全向轮底盘运动控制与运动解算</h4>
                 <div class="introdution-list-content">
                     <p >
                         <i ></i>
                         <span>内容：</span>
                     </p>
                     <p >
-                        本节课用python编写ROS程序，设计两个node，实现request与reply通信。讲解ROS python编程的技巧，从原理上演示service的通信方式。
+                        以速度1m/s前进解算4个全向轮的各自速度， 以速度1m/s左右平移解算4个全向轮的各自速度。 全向轮对电机负重的影响。
                     </p>
                 </div>
 
@@ -240,22 +237,21 @@
                         <span>知识点：</span>
                     </p>
                     <p >
-                        开发环境配置 Python编写程序
+                        4驱运动模型及运动解算。 前后左右平移速度解算 效率计算 最大负重。 全向轮安装方式
                     </p>
                 </div>
 
                 <p class="list-line"></p>
             </div>
             <div class="introdution-info-list introdution-list-calendar">
-                <h4>8、ROS 坐标转换系统与rviz插件</h4>
+                <h4>8、机械臂运动控制与速度解算</h4>
                 <div class="introdution-list-content">
                     <p >
                         <i ></i>
                         <span>内容：</span>
                     </p>
                     <p >
-                        机器人有着各式各样的形态，在ROS中需要掌握各个关节和机构的坐标，因此就有了TF。本节课程将介绍TF的原理和命令，以xbot2机器人作为演示，并介
-                        绍RViz插件。最后介绍urdf文件与机器人模型。
+                        围绕让6轴机械臂到达三维空间中某一坐标进行正向逆向运动解算举例。推导各个关节所应该旋转角度。为什么机械臂带载那么轻还这么贵。
                     </p>
                 </div>
 
@@ -265,22 +261,21 @@
                         <span>知识点：</span>
                     </p>
                     <p >
-                        TF坐标转换系统概念及命令演示（5分钟） RViz插件用法介绍（5分钟） Urdf文件与机器人模型（5分钟）
+                        正向运动 逆向运动 带载运动 电磁抱闸系统
                     </p>
                 </div>
 
                 <p class="list-line"></p>
             </div>
             <div class="introdution-info-list introdution-list-calendar">
-                <h4>9、ROS的调试</h4>
+                <h4>9、机器人升降系统及头部3轴运动讲解</h4>
                 <div class="introdution-list-content">
                     <p >
                         <i ></i>
                         <span>内容：</span>
                     </p>
                     <p >
-                        调试是每一个ROS开发者不可避免的问题，由于ROS系统庞大复杂，可能会出现各种问题。本节课将讲解ROS的调试工具、调试方法、常见错误和调试技巧
-                        将实际工程项目中积累的经验和方法教给学生。
+                        让机器人的升降系统运动到1m指定高度，并稳定停在1m高度处，不能抖动； 让机器人头部45°仰角仰视天空。
                     </p>
                 </div>
 
@@ -290,21 +285,21 @@
                         <span>知识点：</span>
                     </p>
                     <p >
-                        ROS bag、Rqt、roswtf 调试技巧与常见错误
+                        升降位置闭环及电磁抱闸系统 , 头部3轴运动控制
                     </p>
                 </div>
 
                 <p class="list-line"></p>
             </div>
             <div class="introdution-info-list introdution-list-calendar">
-                <h4>10、项目作业+（平台推广）</h4>
+                <h4>10、总结机器人机电控制系统</h4>
                 <div class="introdution-list-content">
                     <p >
                         <i ></i>
                         <span>内容：</span>
                     </p>
                     <p >
-                        课程最后是一个需要学生独立完成的项目作业，完成该作业需要用到本课程讲授的大部分内容，部分知识点需要自主学习。睿思学院提供代码审阅服务。
+                        回顾前面9节课讲解内容及所用知识点。
                     </p>
                 </div>
 
@@ -314,7 +309,8 @@
                         <span>知识点：</span>
                     </p>
                     <p >
-                        ROS bag、Rqt、roswtf 调试技巧与常见错误
+                        转矩闭环、转速闭环、位置闭环、闭环嵌套、双轮、麦克纳母轮、全向轮、机械臂、		带载运动
+
                     </p>
                 </div>
 
