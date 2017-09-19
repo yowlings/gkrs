@@ -261,8 +261,7 @@ ol ,ul{
     }
     .but-down-list{
         background:#181E2A;
-        /*opacity: .8;*/
-        opacity: 1;
+        opacity: .8;
         text-align: center;
     }
     .but-down-list ul li:hover{

@@ -176,18 +176,20 @@
 
 .product-robots ul li {
     flex: 1;
-    width: 30%;
+    /*width: 30%;*/
     float: left;
 }
 
-.product-robots ul li:nth-child(2) {
-    margin: 0 10px;
+/*.product-robots ul li:nth-child(2) {*/
+.product-robots ul li {
+    /*margin: 0 10px;*/
+    margin: 0 5px;
 }
 
 .product-robots ul li > div {
     /* width: 350px;
      height: 300px;*/
-    background: #EEF5F8;
+    /*background: #EEF5F8;*/
     border-radius: 10px;
 }
 
@@ -635,6 +637,10 @@
         background:#181E2A;
         opacity: .8;
         text-align: center;
+        height: 220px;
+    }
+    .but-down-list ul li{
+        line-height: 34px;
     }
     .but-down-list ul li:hover{
         background:#4F8397;

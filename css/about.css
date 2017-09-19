@@ -156,9 +156,12 @@ ol ,ul{
     font-weight: 700;
     color: #666;
 }
-.team-group .team-group-content p{
+.team-group .team-group-content .team-group-content-detail{
     color: #999999;
     line-height: 25px;
+}
+.team-group .team-group-content .team-group-content-lite{
+    display: none;
 }
 .team-group ul li dt{
     display: inline-block;
@@ -328,8 +331,7 @@ ol ,ul{
     }
     .but-down-list{
         background:#181E2A;
-        /*opacity: .8;*/
-        opacity: 1;
+        opacity: .8;
         text-align: center;
     }
     .but-down-list ul li:hover{
@@ -363,6 +365,12 @@ ol ,ul{
 
     .footer-logo > a img {
         width: 50%;
+    }
+    .team-group-content-detail{
+        display: none;
+    }
+    .team-group .team-group-content .team-group-content-lite{
+        /*display: inline-block;*/
     }
 
 
