@@ -20,14 +20,18 @@
 /*}*/
 
 .cardShow .carShow-img{
-    width: 150px;
-    height: 150px;
+    /*width: 150px;*/
+    /*height: 150px;*/
+    /*line-height: 150px;*/
 
     margin:auto;
-    margin-top:10%;
-    margin-bottom:15%;
-    /*padding-bottom: 15%;*/
     text-align: center;
+
+    /*margin-top:10%;*/
+    /*margin-bottom:15%;*/
+    padding: 15% 0 10% 0;
+    box-sizing: border-box;
+
 }
 .cardShow .carShow-img img{
 
