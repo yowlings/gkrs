@@ -144,6 +144,10 @@
     height: 40px;
     line-height: 40px;
 }
+.cardShow-name{
+
+}
+
 .cardShow-price{
     position: absolute;
     bottom:0px;
@@ -177,6 +181,9 @@
 }
 .cardShow li:hover .cardShow-price span{
     color: #fff;
+}
+.cardShow li:hover .cardShow-name{
+    opacity: 0;
 }
 
 
