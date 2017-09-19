@@ -20,20 +20,26 @@
 /*}*/
 
 .cardShow .carShow-img{
-    /*width: 150px;*/
-    /*height: 150px;*/
+    width: 150px;
+    height: 150px;
 
     margin:auto;
     margin-top:10%;
-    padding-bottom: 5%;
+    margin-bottom:15%;
+    /*padding-bottom: 15%;*/
     text-align: center;
 }
 .cardShow .carShow-img img{
-    /*width: 180px;*/
-    /*height: 180px;*/
-    width: 50%;
-    height: 50%;
+
     margin:auto;
+    /*margin-top:10%;*/
+    /*padding-bottom: 5%;*/
+    text-align: center;
+    width:auto;
+    height: auto;
+    max-width: 180px;
+    max-height: 180px;
+
 }
 
 .cardShow ul{
@@ -111,7 +117,7 @@
 
 .review-wrapper a{
     display:block;
-    padding: 8px 30px;
+    padding: 8px 10px;
     outline:0;
     position: relative;
 
@@ -119,7 +125,7 @@
 .review-wrapper a span{
     font-size: 12px;
     color: #CEC49B;
-    line-height: 20px;
+    /*line-height: 20px;*/
 }
 
 .review-wrapper .author{
@@ -138,7 +144,7 @@
     position: absolute;
     bottom:0px;
     width: 100%;
-    margin-top:5%;
+    /*margin-top:10%;*/
     margin-bottom:0%;
     z-index: 999;
 }
