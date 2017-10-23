@@ -136,11 +136,37 @@
 
 
 
-    /*============ 核心技术 结束 ============*/
+/*============ 核心技术 结束 ============*/
+
+/*============ 视频域开始============*/
+.video-vessel{
+    position: relative;
+}
+.video-close{
+    position: absolute;
+    right:1%;
+    /*top:-5%;*/
+    width: 4%;
+    text-align: center;
+    background:red;
+    border-radius:50%;
+}
+.video-close button{
+}
+.video-close button span{
+    font-size: 38px;
+    position: relative;
+    right: 56%;
+
+}
+
+/*============ 视频域结束 ============*/
+
 
 /*============ 产品概览 开始 ============*/
 .product-summary {
     /*margin: 58px 0px 24px;*/
+    margin-top:2%;
 }
 
 .product-title {

@@ -12,13 +12,15 @@
   <meta name="full-screen" content="yes">
   <meta name="x5-fullscreen" content="true">
   <title>重德智能 | 首页</title>
+  <!--<link rel="stylesheet" href="css/vendor/bootstrap.min.css">-->
+  <link rel="stylesheet" href="script/vendor/bootstrap/dist/css/bootstrap.min.css">
+  <link href="//vjs.zencdn.net/4.10/video-js.css" rel="stylesheet">
 
   <link rel="icon" href="img/logo-favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/common/commonHeader.css">
   <link rel="stylesheet" href="css/index.css">
 
-  <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
 </head>
 
 <body >
@@ -97,6 +99,40 @@
     </div>
   </div>
   <!--核心技术 结束-->
+
+  <!--宣传域 开始-->
+  <div class="Propaganda">
+    <div class="video-vessel">
+
+        <!--<img src="data/img/mi-1.png"  class="img" alt="" style="width: 1200px; height:540px; margin: auto;">-->
+        <img src="data/img/mi-1.png"  class="video-img" alt="" style="width: 100%; height:100%; margin: auto;">
+
+        <button type="button" class="btn  btn-modal" data-toggle="modal" data-target=".bs-example-modal-lg" style="position: absolute; top: 50%;left: 48%; background: #999;">
+            <!--<span class="glyphicon glyphicon-play-circle" style="font-size: 18px;"></span>-->
+            <span  class="glyphicon glyphicon-play-circle" style="font-size: 18px;"></span>
+        </button>
+
+        <div class="modal fade bs-example-modal-lg modal-close" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" >
+            <div class="modal-dialog modal-lg" role="document"  style="width:100%; height: 100%">
+
+                <div class="modal-content" style="width:100%; height: 100%;">
+                    <!--<div class="alert  alert-dismissible video-close" role="alert">-->
+                    <div class="video-close" role="alert">
+                      <!--<button type="button" class="close" data-dismiss="alert" aria-label="Close" >-->
+                        <!--<span >&times;</span>-->
+                      <!--</button>-->
+                    </div>
+
+                    <iframe class="video-iframe" src="data/xiaomi.mp4" frameborder="0" width="100%" height="100%"  scrolling allowfullscreen="true" seamless></iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+  </div>
+
+
+  <!--宣传域 结束-->
 
   <!--产品概览 开始-->
   <div class="product-summary">
@@ -287,10 +323,12 @@
 
 
 </body>
+<script src="//vjs.zencdn.net/4.10/video.js"></script>
 <script src="script/vendor/jquery.min.js"></script>
-<script src="script/vendor/bootstrap.js"></script>
- <script type="text/javascript" src="script/lib/index.js"></script>
+<!--<script src="script/vendor/bootstrap.js"></script>-->
+<script src="script/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="script/lib/index.js"></script>
 <script src="script/lib/common/commonNavBtn.js"></script>
 <!--<script type="text/javascript" src="script/lib/index2.js"></script>-->
-
+<script src="script/lib/showVideo.js"></script>
 </html>
