@@ -101,36 +101,35 @@
   <!--核心技术 结束-->
 
   <!--宣传域 开始-->
-  <div class="Propaganda">
-    <div class="video-vessel">
+  <!--<div class="Propaganda">-->
+    <!--<div class="video-vessel">-->
 
-        <!--<img src="data/img/mi-1.png"  class="img" alt="" style="width: 1200px; height:540px; margin: auto;">-->
-        <img src="data/img/mi-1.png"  class="video-img" alt="" style="width: 100%; height:100%; margin: auto;">
+        <!--&lt;!&ndash;<img src="data/img/mi-1.png"  class="img" alt="" style="width: 1200px; height:540px; margin: auto;">&ndash;&gt;-->
+        <!--<img src="data/img/mi-1.png"  class="video-img" alt="" style="width: 100%; height:100%; margin: auto;">-->
 
-        <button type="button" class="btn  btn-modal" data-toggle="modal" data-target=".bs-example-modal-lg" style="position: absolute; top: 50%;left: 48%; background: #999;">
-            <!--<span class="glyphicon glyphicon-play-circle" style="font-size: 18px;"></span>-->
-            <span  class="glyphicon glyphicon-play-circle" style="font-size: 18px;"></span>
-        </button>
+        <!--<button type="button" class="btn  btn-modal" data-toggle="modal" data-target=".bs-example-modal-lg" style="position: absolute; top: 50%;left: 48%; background: #999;">-->
+            <!--&lt;!&ndash;<span class="glyphicon glyphicon-play-circle" style="font-size: 18px;"></span>&ndash;&gt;-->
+            <!--<span  class="glyphicon glyphicon-play-circle" style="font-size: 18px;"></span>-->
+        <!--</button>-->
 
-        <div class="modal fade bs-example-modal-lg modal-close" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" >
-            <div class="modal-dialog modal-lg" role="document"  style="width:100%; height: 100%">
+        <!--<div class="modal fade bs-example-modal-lg modal-close" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" >-->
+            <!--<div class="modal-dialog modal-lg" role="document"  style="width:100%; height: 100%">-->
 
-                <div class="modal-content" style="width:100%; height: 100%;">
-                    <!--<div class="alert  alert-dismissible video-close" role="alert">-->
-                    <div class="video-close" role="alert">
-                      <!--<button type="button" class="close" data-dismiss="alert" aria-label="Close" >-->
-                        <!--<span >&times;</span>-->
-                      <!--</button>-->
-                    </div>
+                <!--<div class="modal-content" style="width:100%; height: 100%;">-->
+                    <!--&lt;!&ndash;<div class="alert  alert-dismissible video-close" role="alert">&ndash;&gt;-->
+                    <!--<div class="video-close" role="alert">-->
+                      <!--&lt;!&ndash;<button type="button" class="close" data-dismiss="alert" aria-label="Close" >&ndash;&gt;-->
+                        <!--&lt;!&ndash;<span >&times;</span>&ndash;&gt;-->
+                      <!--&lt;!&ndash;</button>&ndash;&gt;-->
+                    <!--</div>-->
 
-                    <iframe class="video-iframe" src="data/xiaomi.mp4" frameborder="0" width="100%" height="100%"  scrolling allowfullscreen="true" seamless></iframe>
-                </div>
-            </div>
-        </div>
+                    <!--<iframe class="video-iframe" src="data/xiaomi.mp4" frameborder="0" width="100%" height="100%"  scrolling allowfullscreen="true" seamless></iframe>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
 
-    </div>
-  </div>
-
+    <!--</div>-->
+  <!--</div>-->
 
   <!--宣传域 结束-->
 
@@ -149,9 +148,26 @@
           <li>
             <div class="robots-torry">
               <!-- <p></p> -->
-              <img src="img/indexShow/xbotRobot.png" alt="">
+              <img src="img/indexShow/xbotRobot.png" alt="" class="video-showBtn glyphicon glyphicon-play-circle video-showBtn" data-toggle="modal" data-target=".bs-example-modal-lg">
+              <!--<span type="button" class="glyphicon glyphicon-play-circle video-showBtn" data-toggle="modal" data-target=".bs-example-modal-lg"></span>-->
+              <div class="video-showContent modal fade bs-example-modal-lg"  tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content" >
+                    <!--<iframe class="video-iframe"  src="data/xiaomi.mp4" frameborder="0" width="100%" height="600px"  scrolling allowfullscreen="true" seamless autoplay="false" ></iframe>-->
+                    <!--<video  autoplay="autoplay" preload="metadata" src="data/xiaomi.mp4" title style="width:100%; height:600px;" > </video>-->
+                    <video  controls="controls"  preload="metadata" src="data/xiaomi.mp4" title style="width:100%; height:560px;" > </video>
+                    <!--<video preload="metadata"  src="data/xiaomi.mp4" title style="width:100%; height:600px;" > </video>-->
+                    <!--<iframe class="video_iframe" style=" z-index:1; "  src="data/xiaomi.mp4"  autoPlay=true  allowfullscreen="" frameborder="0" height="500" width="900"></iframe>-->
+                  </div>
+                </div>
+              </div>
             </div>
+
             <p><span>xtbot机器人产品</span></p>
+
+            <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>-->
+
+
           </li>
 
           <li>
@@ -314,7 +330,7 @@
   <div class="footer-bottom">
     <div class="cut-line"></div>
     <div class="vessel">
-      <p><a href="#">© 2017 droid ORG.ALL RIGHTS RESERVERD 京ICP备 XXXXXXX号</a></p>
+      <p><a href="#">© 2017 droid ORG.ALL RIGHTS RESERVERD 浙ICP备17047339号 </a></p>
     </div>
   </div>
   <!--分割线 结束-->
@@ -331,5 +347,6 @@
 <script type="text/javascript" src="script/lib/index.js"></script>
 <script src="script/lib/common/commonNavBtn.js"></script>
 <!--<script type="text/javascript" src="script/lib/index2.js"></script>-->
-<script src="script/lib/showVideo.js"></script>
+<!--<script src="script/lib/showVideo.js"></script>-->
+<script src="script/lib/indexShowVideo.js"></script>
 </html>
