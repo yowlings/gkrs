@@ -1,7 +1,7 @@
 // 百度地图API功能
 var mp = new BMap.Map("allmap");
 //mp.centerAndZoom(new BMap.Point(116.3964,39.9093), 15);
-mp.centerAndZoom(new BMap.Point(116.342614,39.98568), 18);
+mp.centerAndZoom(new BMap.Point(116.351269,39.982649), 18);
 mp.enableScrollWheelZoom();
 // 复杂的自定义覆盖物
 function ComplexCustomOverlay(point, text, mouseoverText){
@@ -64,9 +64,9 @@ ComplexCustomOverlay.prototype.draw = function(){
     this._div.style.top  = pixel.y - 30 + "px";
 }
 //var txt = "银湖海岸城", mouseoverTxt = txt + " " + parseInt(Math.random() * 1000,10) + "套" ;
-var txt = "中国科学院软件园区", mouseoverTxt = txt + " "  ;
+var txt = "知春路27号量子芯座大厦", mouseoverTxt = txt + " "  ;
 
 //var myCompOverlay = new ComplexCustomOverlay(new BMap.Point(116.407845,39.914101), "银湖海岸城",mouseoverTxt);
-var myCompOverlay = new ComplexCustomOverlay(new BMap.Point(116.342614,39.98568), "中国科学院软件园区",mouseoverTxt);
+var myCompOverlay = new ComplexCustomOverlay(new BMap.Point(116.351269,39.982649), "知春路27号量子芯座大厦",mouseoverTxt);
 
 mp.addOverlay(myCompOverlay);
