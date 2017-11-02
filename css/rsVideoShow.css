@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+}
+.container .content-lf{
+    width: 20%;
+    background:pink;
+    padding: 1%;
+}
+.content-lf .content-box{
+    height: 30px;
+    background:yellowgreen;
+}
+.content-list{
+    height: 30px;
+    min-height: 500px;
+    overflow: scroll;
+}
+
+.content-lf p{
+    color: #fff;
+    font-weight: 600;
+}
+.container .content-rt{
+    flex:1;
+    width: 20%;
+    /*padding: 1%;*/
+    background: green;
+}
+.content-videoTitle{
+    text-align: center;
+}
+

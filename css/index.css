@@ -204,6 +204,7 @@
     flex: 1;
     /*width: 30%;*/
     float: left;
+    cursor: pointer;
 }
 
 /*.product-robots ul li:nth-child(2) {*/
@@ -251,6 +252,11 @@
     background: url("../img/marry.png") no-repeat center center;
     background-size:cover;
 }*/
+
+.robots-torry>.video-showBtn{
+
+}
+
 
 /*============ 产品概览 结束 ============*/
 
@@ -442,7 +448,7 @@
 }
 
 .footer-cell .summary a {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .footer-cell ul > li ul li {
