@@ -1,7 +1,7 @@
 // 百度地图API功能
 var mp = new BMap.Map("allmap");
 //mp.centerAndZoom(new BMap.Point(116.3964,39.9093), 15);
-mp.centerAndZoom(new BMap.Point(116.351269,39.982649), 18);
+mp.centerAndZoom(new BMap.Point(116.344129,39.98451), 18);
 mp.enableScrollWheelZoom();
 // 复杂的自定义覆盖物
 function ComplexCustomOverlay(point, text, mouseoverText){
