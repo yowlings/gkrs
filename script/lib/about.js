@@ -64,9 +64,9 @@ ComplexCustomOverlay.prototype.draw = function(){
     this._div.style.top  = pixel.y - 30 + "px";
 }
 //var txt = "银湖海岸城", mouseoverTxt = txt + " " + parseInt(Math.random() * 1000,10) + "套" ;
-var txt = "知春路27号量子芯座大厦", mouseoverTxt = txt + " "  ;
+var txt = "紫金数码大厦3号楼807室", mouseoverTxt = txt + " "  ;
 
 //var myCompOverlay = new ComplexCustomOverlay(new BMap.Point(116.407845,39.914101), "银湖海岸城",mouseoverTxt);
-var myCompOverlay = new ComplexCustomOverlay(new BMap.Point(116.351269,39.982649), "知春路27号量子芯座大厦",mouseoverTxt);
+var myCompOverlay = new ComplexCustomOverlay(new BMap.Point(116.344129,39.98451), "紫金数码大厦3号楼807室",mouseoverTxt);
 
 mp.addOverlay(myCompOverlay);
